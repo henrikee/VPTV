@@ -43,34 +43,9 @@ include("includes/header.php");
     ?>
     </p>
 </div>
-
-<script src="js/MindFusion.Scheduling.js" type="text/javascript"></script>
-<script src="js/GoogleSchedule.js" type="text/javascript"></script>
-<script src="js/TimeForm.js" type="text/javascript"></script>
 <script>
     var date = new Date();
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
-    
-
-//???olisiko tämä funktio mitä käytetään päiväkirjamerkintöjen etsimiseen????
-//getDiaryEntry.php tekemättä -> vaatii databasen
-    function showDiaryEntry(str) {
-        var xhttp;  
-        if (str == "") {
-        document.getElementById("diaryEntry").innerHTML = "";
-        return;
-        }
-    xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("diaryEntry").innerHTML = this.responseText;
-        }
-    };
-    xhttp.open("GET", "getDiaryEntry.php?q="+str, true);
-    xhttp.send();
-    }
 </script>
-<a id="link" href="http://MindFusion.Scheduling.js">http://MindFusion.Scheduling.js</a>
-<a id= "link" href="http://GoogleSchedule.js">http://GoogleSchedule.js</a>
 </body>
 </html>
