@@ -1,5 +1,5 @@
 <?php
-include("header.php");
+include("includes/header.php");
 include("forms/formDiary.php");
 ?>
 <!DOCTYPE html>
@@ -13,22 +13,6 @@ include("forms/formDiary.php");
 <?php
     echo $_SESSION['username'];
 ?>
-<?php 
-//Tallennetaan merkintä päiväkirjaan
-if(isset($_POST['submitEx'])){
-    $_SESSION['fDate'] = $_POST['givenDate'];
-    $_SESSION['fExercise'] = $_POST['givenEx'];
-    $_SESSION['fLength'] = $_POST['givenLength'];
-    $_SESSION['fPulse'] = $_POST['givenPulse'];
-    $_SESSION['fMeal'] = $_POST['givenMeal'];
-    $_SESSION['fSleep'] =$_POST['givenSleep'];
-    $_SESSION['fSleepLength'] = $_POST['givenSleepLength'];
-}
-?>
-<?php
-//tiedot Tietokantaan?
-?>
-
 
 <?php
  if(isset($_POST['ResetEx'])){
