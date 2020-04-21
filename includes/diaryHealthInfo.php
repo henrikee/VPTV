@@ -1,6 +1,6 @@
 <?php
-include("header.php");  //yhteysolio
-include("forms/healthForm.php");
+include("includes/header.php");  //yhteysolio
+include("forms/formHealth.php");
 include_once("functions/healthyCalculator.php");
 ?>
 <!doctype html>
@@ -15,7 +15,6 @@ include_once("functions/healthyCalculator.php");
     welcome
     <?php 
     echo("<p>** User: " .$_SESSION['suserName']. " " . $_SESSION['suserEmail']);
-    
     ?>
     
 <?php
@@ -35,7 +34,7 @@ include_once("functions/healthyCalculator.php");
             $_SESSION['diastolic'] = $_POST['givenDiastolic'];
             $_SESSION['bloodPressureWarning'] = getBloodPressureWarning($_SESSION['systolic'],$_SESSION['diastolic']);
         }else{
-            echo("Anna ikä 55-100, pituus 50-250cm, paino 4.5-200 kg, vyötärön ympärys 30-200 cm, verenpaineet 50-250");
+            echo "<script>alert('Anna ikä 55-100, pituus 50-250cm,< paino 4.5-200 kg, vyötärön ympärys 30-200 cm, verenpaineet 50-250');</script>";
         }
     }
     //Tulostetaan terveystiedot jos bmi on laskettu
@@ -51,19 +50,6 @@ include_once("functions/healthyCalculator.php");
         echo("Yläpaine Hgmm: " . $_SESSION['systolic']."<br />");
         echo("Alapaine Hgmm: " . $_SESSION['diastolic']."</p><hr />");
      }
-?>
-<?php
-    include("forms/saveHealthFormData.php");
-    if(isset($_POST['buttonSave']) && strlen($_SESSION['name']) >=2){
-        echo("Tiedot tallennettu onnistuneesti.");
-    }
-    //Halutaanko tuhota sessiomuuttujiin tallennetut tiedot ja poistaa sessio pois käytöstä?
-    if(isset($_POST['buttonDestroy'])){
-        session_unset();
-        session_destroy();
-    //Palataan takaisin tälle samalle sivulle jolloin sessio käynnistyy uudelleen
-        header("Location: " . $_SERVER['PHP_SELF']);
-    }
 ?>
 <?php
 /*
@@ -108,7 +94,5 @@ if(isset($_POST['submitHealthydata'])){
   }
 ?>
 
-
-<hr/>
 </body>
 </html>
