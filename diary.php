@@ -21,7 +21,7 @@ include("includes/header.php");
     <h3>Paina "Tee merkintä" kirjataksesi päivän tiedot</h3>
 </header>
 
-<button class="formbtn" id="diaryBtn">Tee merkintä</button>
+<button class="btn" id="diaryBtn">Tee merkintä</button>
 <div class="markingPopup">
     <div class="markingContent">
         <?php
@@ -30,7 +30,7 @@ include("includes/header.php");
     </div>
 </div>
 
-<button class="formbtn" id="healthFormBtn">Täytä terveystietolomake</button>
+<button class="btn" id="healthFormBtn">Täytä terveystietolomake</button>
 <div class="markingPopup2">
     <div class="markingContent2">
         <?php
@@ -41,8 +41,8 @@ include("includes/header.php");
 
 <div class="healthdata">
     <form method="get">
-        <button class="openbtn" type="submit" value="Näytä terveystiedot" name="buttonOpenHealthInfo">Näytä tiedot</button>
-        <button class="openbtn" type="reset" value="Piilota terveystiedot" id="buttonOpenHealthInfo" name="buttonOpenHealthInfo">Piilota tiedot</button>
+        <button class="btn" type="submit" value="Näytä terveystiedot" name="buttonOpenHealthInfo">Näytä tiedot</button>
+        <button class="btn" type="reset" value="Piilota terveystiedot" id="buttonHideHealthInfo" name="buttonHideHealthInfo">Piilota tiedot</button>
     </form>
     <p class="opendata">
     <?php

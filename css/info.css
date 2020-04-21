@@ -234,6 +234,10 @@ p{
         margin-left: 5%;
         transition: all .5s ease;
     }
+    #buttons button{
+        text-align: center;
+        float: none;
+    }
 }
 @media only screen and (max-width: 923px){
     #buttons{
@@ -261,6 +265,9 @@ p{
         float: none;
     }
     #info p{
+        font-size: smaller;
+    }
+    #date{
         font-size: smaller;
     }
 }
