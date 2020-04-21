@@ -20,7 +20,13 @@ include("includes/header.php");
    </header>
    <section>
         <div class="card">
-            <p>earth is flat, epstein didnt kill himself, 5G causes coronavirus, jet fuel can't melt steel beams</p>
+            <p>aloittelija</p>
+        </div>
+        <div class="card">
+            <p>keskiverto</p>
+        </div>
+        <div class="card">
+            <p>iron man</p>
         </div>
     </section>
 </body>
