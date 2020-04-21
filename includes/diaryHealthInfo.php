@@ -11,12 +11,6 @@ include_once("functions/healthyCalculator.php");
 <meta charset="UTF-8"/>
 </head>
 <body>
-    <div></div>
-    welcome
-    <?php 
-    echo("<p>** User: " .$_SESSION['suserName']. " " . $_SESSION['suserEmail']);
-    ?>
-    
 <?php
     //Tallennetaanko terveystiedot
     if(isset($_POST['submitHealthydata'])){
