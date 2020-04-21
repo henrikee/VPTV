@@ -1,8 +1,8 @@
 <form class="diaryMark" method="post">
         <div>
                 <div>
-                        <label class="diaryMarkingLabel">Päivämäärä</label><br>
-                        <input name="givenDate" class="markingTxt" type="date"><br>
+                        <!-- <label class="diaryMarkingLabel">Päivämäärä</label><br>
+                        <input name="givenDate" class="markingTxt" type="date"><br> -->
                         <label class="diaryMarkingLabel">Mitä liikuntaa harrastit tänään?<br></label>
                         <input type="text" name="givenEx" class="markingTxt" access="false">
                 </div>
