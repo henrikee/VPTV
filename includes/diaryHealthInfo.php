@@ -15,7 +15,6 @@ include_once("functions/healthyCalculator.php");
     welcome
     <?php 
     echo("<p>** User: " .$_SESSION['suserName']. " " . $_SESSION['suserEmail']);
-    
     ?>
     
 <?php
