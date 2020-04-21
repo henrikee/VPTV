@@ -6,7 +6,7 @@ include_once("config/config.php");
 session_start();
 ?>
 <!DOCTYPE html> 
-<html  lang="fi-FI">
+<html lang="en">
 <head>
 <title>Leeerooy Jeeennkins</title>
 <meta charset="UTF-8">
