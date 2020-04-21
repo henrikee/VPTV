@@ -6,7 +6,7 @@ include("forms/formDiary.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Päiväkirjamerkintä</title>
+    <title>PÃ¤ivÃ¤kirjamerkintÃ¤</title>
 </head>
 <body>
 <?php
@@ -32,14 +32,15 @@ if(isset($_POST['submitEx'])){
        var_dump($_SESSION);
         $data420['userID']=$_SESSION['userID'];
         $data420['Ex']=$_POST['givenEx'];
+        $data420['Length']=$_POST['givenLength'];
         $data420['Pulse']=$_POST['givenPulse'];
         $data420['Meal']=$_POST['givenMeal'];
         $data420['Sleep']=$_POST['givenSleep'];
         $data420['SleepLength']=$_POST['givenSleepLength'];
 
         echo" rivi 40";
-        var_dump($data2);
-    $sql420="INSERT INTO testi_projekti_paivakirja (userID, Ex, Pulse, Meal, Sleep, SleepLength) VALUES (:userID, :Ex, :Pulse, :Meal, :Sleep, :SleepLength);";
+        var_dump($data420);
+    $sql420="INSERT INTO testi_projekti_paivakirja (userID, Ex, Length, Pulse, Meal, Sleep, SleepLength) VALUES (:userID, :Ex, :Length, :Pulse, :Meal, :Sleep, :SleepLength);";
      $kysely420 = $DBH->prepare($sql420); 
      $kysely420->execute($data420);
    } catch(PDOException $e) {
