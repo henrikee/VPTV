@@ -1,8 +1,8 @@
 <form class="diaryMark" method="post">
         <div>
                 <div>
-                        <label class="diaryMarkingLabel">Päivämäärä</label><br>
-                        <input name="givenDate" class="markingTxt" type="date"><br>
+                        <!-- <label class="diaryMarkingLabel">Päivämäärä</label><br>
+                        <input name="givenDate" class="markingTxt" type="date"><br> -->
                         <label class="diaryMarkingLabel">Mitä liikuntaa harrastit tänään?<br></label>
                         <input type="text" name="givenEx" class="markingTxt" access="false">
                 </div>
@@ -10,15 +10,15 @@
                         <label class="diaryMarkingLabel">Liikunnan kesto<br></label>
                         <div class="radio-group">
                                 <div>
-                                        <input name="givenLength" name="givenLength" access="false" id="radEx-0" type="radio" checked="unchecked">
+                                        <input name="givenLength" access="false" id="radEx-0" type="radio" checked="unchecked" value="alle 30 min">
                                         <label class="diaryMarkingLabel">alle 30 min</label>
                                 </div>
                                 <div>
-                                        <input name="givenLength" access="false" id="radEx-1" type="radio">
+                                        <input name="givenLength" access="false" id="radEx-1" type="radio" value="30-60 min">
                                         <label for="radEx-1" class="diaryMarkingLabel">30-60 min</label>
                                 </div>
                                 <div>
-                                        <input name="givenLength" access="false" id="radEx-2" type="radio">
+                                        <input name="givenLength" access="false" id="radEx-2" type="radio" value="yli 60 min">
                                         <label for="radEx-2" class="diaryMarkingLabel">yli 60 min</label>
                                 </div>
                         </div>
@@ -38,14 +38,14 @@
                 <div><label class="diaryMarkingLabel">Unen kesto viime yönä<br></label>
                         <div>
                                 <div>
-                                        <input access="false" name="givenSleepLength" type="radio" checked="checked">
+                                        <input access="false" name="givenSleepLength" type="radio" checked="checked" value="alle 5h">
                                         <label class="diaryMarkingLabel">alle 5h</label>
                                 </div>
-                                <div><input access="false" name="givenSleepLength" type="radio">
+                                <div><input access="false" name="givenSleepLength" type="radio" value="6-8h">
                                         <label class="diaryMarkingLabel">6-8 h</label>
                                 </div>
                                 <div class="formbuilder-radio">
-                                        <input access="false" name="givenSleepLength" type="radio">
+                                        <input access="false" name="givenSleepLength" type="radio" value="yli 8h">
                                         <label class="diaryMarkingLabel">yli 8h</label>
                                 </div>
                         </div>
