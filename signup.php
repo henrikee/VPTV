@@ -15,6 +15,9 @@ include("includes/header.php");
 </head>
 
 <body>
+  <header>
+  <h1>Luo käyttäjätunnus</h1>
+  </header>
   <div class="boxCreateAccount">
     <?php
     include("forms/formSignup.php");

@@ -150,17 +150,18 @@ h2{
 }
 .boxLogin {
     text-align: center;
-    background-color:#fbfbfbd3;
+    background-color: #fbfbfbd3;
+    border: 1px solid #53b1bd;
     padding: 1vh;
-    border-radius: 5px;
     letter-spacing: 1px;
     width: 50%;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     display: block;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
 }
 .boxLogin input{
+    padding: 2px;
     width: 20vh;
     height: 4vh;
     margin-bottom: 2%;
@@ -168,8 +169,8 @@ h2{
     margin-right: auto;
     display: block;
     background-color:#53b1bdab;
-    border-radius: 5px;
-    border: none;
+    border-radius: 4px;
+    border: 1px solid #53b1bd;
 }
 .boxLogin input:invalid{
     border: 1px solid red;

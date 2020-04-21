@@ -164,15 +164,6 @@ span{
     margin-right: 1%;
     margin-top: 1%;
 }
-#calendar{
-    display: block;
-    float: left;
-    width: 70%;
-    height: 70%;
-    margin-left: 15%;
-    border: groove #12646f;
-    border-radius: 0.5rem;
-}
 section{
     height: 70%;
     margin-bottom: 1%;

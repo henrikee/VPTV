@@ -21,16 +21,14 @@ include("includes/header.php");
         Klikkaa sivun vasemmalla puolella olevia linkkejä lukeaksesi vinkkejä!</h3>
     </header>
     <section>
-        <nav id="buttons">
-            <ul id="buttonslist">
-                <li><button onclick="func1()">Miksi kannattaa liikkua?</button></li>
-                <li><button onclick="func2()">Ikääntymisen vaikutukset kehoon.</button></li>
-                <li><button onclick="func3()">Liikuntasuositukset.</button></li>
-                <li><button onclick="func4()">Mitä on terveysliikunta?</button></li>
-                <li><button onclick="func5()">Mitä on kuntoa kohottava liikunta?</button></li>
-                <li><button onclick="func6()">Mistä ja miten aloittaa liikunta?</button></li>
-            </ul>
-        </nav>
+        <div id="buttons">
+            <button onclick="func1()">Miksi kannattaa liikkua?</button></li>
+            <button onclick="func2()">Ikääntymisen vaikutukset kehoon.</button></li>
+            <button onclick="func3()">Liikuntasuositukset.</button></li>
+            <button onclick="func4()">Mitä on terveysliikunta?</button></li>
+            <button onclick="func5()">Mitä on kuntoa kohottava liikunta?</button></li>
+            <button onclick="func6()">Mistä ja miten aloittaa liikunta?</button></li>
+        </div>
         <div id="info">
             <p id="p1">MIKSI KANNATTAA LIIKKUA?<br>Terveysliikunta ja kuntoa kohottava liikunta ovat erityisen tärkeitä ikääntyville, sillä ne hidastavat muutoksia, joista pääset lukemaan otsikon 'Ikääntymisen vaikutukset kehoon' alta. Kehon rappeutumisen hidastumisen lisäksi, liikunta auttaa tunnetusti ehkäisemään aivojen – ja hermoston toimintaan vaikuttavia sairauksia ja tiloja, esim. muistisairauksia ja kärttyisyyttä. Ikääntyessä myös kehon aineenvaihdunta hidastuu, jolloin paino saattaa nousta rasvan kertymisen myötä. Vaikka terve määrä rasvaa kehossa on senioreille tärkeää, sen liiallinen esiintyminen kehossa altistaa sairauksille. Säännöllinen liikunta auttaa painon pysymistä terveellisenä ja sinulle edullisena.</p>
             <p id="p2">IKÄÄNTYMISEN VAIKUTUKSET KEHOON<br>

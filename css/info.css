@@ -15,6 +15,7 @@ body{
 }
 /**NAV**/
 nav{
+    z-index: 10;
     top: 0;
     overflow: hidden;
     position: fixed;
@@ -87,13 +88,6 @@ a.active,a:hover{
     }
     a:hover{
         color: #ececec;
-    }
-    section{
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        flex-direction: column;
     }
 }
 @media only screen and (max-width: 923px){
@@ -175,23 +169,24 @@ span{
     margin-top: 1%;
 }
 section{
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: inline-block;
+    width: 100%;
 }
 #buttons{
-    position: relative;
-    overflow: visible;
-    margin-left: 5%;
-    width: 20%;
-    display: flex;
-    float: left;
-    background-color:rgba(0,0,0,0.0);
-}
-button{
+    background-color: rgba(187, 187, 187, 0.9);
+    padding: 0;
+    width: 25%;
+    background-color:rgba(0, 0, 0, 0);
+    position: fixed;
+    height: 100%;
+  }
+#buttons button{
+    display: block;
     text-shadow: 2px 2px 3px #fbfbfb;
     padding: 5%;
-    text-align: left;
     font-size: larger;
     font-weight: 500;
     text-transform: uppercase;
@@ -199,27 +194,26 @@ button{
     border: none;
     background-color: #fbfbfb00;
 }
-button:hover{
+#buttons button:hover{
     color: #fafafa;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.9);
     transition: .5s;
 }
-button:active{
+#buttons button:active{
     color: black;
     text-shadow: 2px 2px 3px #fbfbfb;
 }
-div{
-    float: left;
-    flex-direction: column;
+#info{
+    margin-right: 10%;
     margin-left: 25%;
-    margin-right: 5%;
+    padding: 1px 16px;
+    height: 100%;
     justify-items: center;
     min-width: 6rem;
-    max-width: 50%;
 }
 p{
     font-size: larger;
-    font: 600;
+    font-weight: 500;
     display: none;
     position: relative;
     text-align: left;
@@ -231,40 +225,43 @@ p{
     word-spacing: 5px;
 }
 @media only screen and (max-width: 1248px){
-    div{
+    #info{
         margin-left: 30%;
         transition: all .5s ease;
     }
     #buttons{
-        overflow: none;
         display: block;
-        margin-left: 8%;
+        margin-left: 5%;
         transition: all .5s ease;
     }
 }
 @media only screen and (max-width: 923px){
-    section{
-        margin-left: auto;
-        margin-right: auto;
-        flex-direction: column;
-    }
-    div{
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 70%;
-        transition: all .5s ease;
-    }
     #buttons{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #buttons button{
+        padding: 1%;
+    }
+    #info{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    #info p{margin-left: 0;}
+    #buttons{
+        text-align: center;
         float: none;
-        overflow: none;
-        display: block;
-        justify-content: center;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        transition: all .5s ease;
+    }
+}
+@media screen and (max-width: 400px) {
+    #buttons button{
+        font-size: smaller;
+        text-align: center;
+        float: none;
+    }
+    #info p{
+        font-size: smaller;
     }
 }
 img{
