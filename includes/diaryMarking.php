@@ -1,5 +1,4 @@
 <?php
-include("includes/header.php");
 include("forms/formDiary.php");
 ?>
 <!DOCTYPE html>

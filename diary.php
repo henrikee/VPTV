@@ -41,6 +41,7 @@ include("includes/header.php");
 <div class="healthdata">
     <form method="get">
         <button class="openbtn" type="submit" value="Näytä terveystiedot" name="buttonOpenHealthInfo">Näytä tiedot</button>
+        <button class="openbtn" type="reset" value="Piilota terveystiedot" id="buttonOpenHealthInfo" name="buttonOpenHealthInfo">Piilota tiedot</button>
     </form>
     <p class="opendata">
     <?php

@@ -1,5 +1,5 @@
 <?php
-include("includes/header.php");  //yhteysolio
+
 include("forms/formHealth.php");
 include_once("functions/healthyCalculator.php");
 ?>
