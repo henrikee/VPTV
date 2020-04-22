@@ -38,8 +38,8 @@
     </div>
     <label class="diaryMarkingLabel">Diastolinen (alapaine) (Hgmm)<br></label>
     <input type="text" name="givenDiastolic" class="markingTxt" access="false"><br>
-    <button type="submit" name="submitHealthydata" class="btn2" value="Tallenna">Tallenna terveystiedot</button>
-    <button type="submit" name="resetHealthydata" class="btn2" value="Peruuta">Hylkää terveystiedot</button>
+    <button type="submit" name="submitHealthydata" class="btn" value="Tallenna">Tallenna terveystiedot</button>
+    <button type="submit" name="resetHealthydata" class="btn" value="Peruuta">Hylkää terveystiedot</button>
     </div>
     </div>
 </form>

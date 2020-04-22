@@ -2,11 +2,9 @@
 <!-- Inserting navigation bar links and burger (helps with the rendering) -->
 <nav>
         <input type="checkbox" id="check">
-        <button id="brg">
-            <label for="check" class="checkbtn">
+        <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
-            </label>
-        </button>
+        </label>
         <label class="logo">Virtual PT</label>
         <ul>
             <li><a href="Main.php">Etusivu</a></li>

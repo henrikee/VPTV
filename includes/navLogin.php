@@ -5,7 +5,7 @@
         </label>
         <label class="logo">Virtual PT - Senior Edition</label>
         <ul>
-            <li><a href="#">Yrityksestä</a></li>
+            <li><a href="aboutUs.php">Yrityksestä</a></li>
             <li><a href="contactsOut.php">Yhteystiedot</a></li>
             <li><a href="signup.php">Rekisteröidy!</a></li>
         </ul>
