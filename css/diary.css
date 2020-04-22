@@ -66,11 +66,6 @@ a.active,a:hover{
 #check{
     display: none;
 }
-#brg{
-    float: right;
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-}
 @media only screen and (max-width: 1236px){
     label.logo{
         font-size: 30px;
@@ -135,11 +130,14 @@ header{
     margin-top: 80px;
     width: 100%;
     text-align: center;
+    background-color: #53b1bdda;
+    padding-bottom: 3%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
 }
 h1,h3,span{
     color: #fbfbfb;
     clear: both;
-    text-shadow: 3px 3px 4px rgba(0,0,0,0.8);
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.9);
 }
 h1{
     text-align: center;
@@ -152,6 +150,8 @@ h1{
     letter-spacing: 1px;
 }
 h3{
+    text-transform: uppercase;
+    font-weight: lighter;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -175,43 +175,28 @@ section{
     margin-bottom: 1%;
 }
 .btn{
-    color: black;
-    background-color:#53b1bdab;
-    position: relative;
+    margin: 1%;
     font-size: larger;
-    border: none;
-    padding: 1rem 1.5rem;
-    cursor: pointer;
+	box-shadow:inset 0px 1px 0px 0px #276873;
+	background:linear-gradient(to bottom,  #53b1bd 5%,  #12646fc0 100%);
+	background-color:#53b1bdab;
+	border-radius: 3px;
+	border:1px solid #12646f;
+	display:inline-block;
+	cursor:pointer;
+	color: #fbfbfb;
+    text-shadow: -1px 0 black, 0 3px rgba(0,0,0,0.8), 3px 0 rgba(0,0,0,0.8), 0 -1px black;
+	padding: 0.5rem 1rem;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
 }
-
-/*button animations*/
-.btn:after, .btn:before{
-    content: '';
-    position: absolute;
-    width: 25%;
-    height: 25%;
-    border: 3px solid #12646f;
-    transition: all .8s ease;
+.btn:hover {
+	background:linear-gradient(to bottom, #12646fc0 5%, #53b1bd 100%);
+	background-color:#53b1bdd5;
 }
-.btn::after{
-    bottom: 0;
-    right: 0;
-    border-top-color: transparent;
-    border-left-color: transparent;
-}
-.btn::before{
-    top: 0;
-    left: 0;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-}
-.btn:hover{
-    background: none;
-}
-.btn:hover::after, .btn:hover::before{
-    background-color:#53b1bd91;
-    width: 100%;
-    height: 100%;
+.btn:active {
+    position: relative;
+	top:1px;
 }
 
 .form{
@@ -233,13 +218,6 @@ section{
     border: 1px solid #53b1bd;
 }
 
-/*Terveystietojen taulukko*/
-/*.healthdata{
-    display: block;
-    float: left;
-    margin-left: 15%;
-    margin-bottom: 10%;
-}*/
 .hdata{
     background-color:#fbfbfbd3;
     border: 1px solid #53b1bd;
@@ -276,8 +254,8 @@ section{
 .markingContent{
     width: 50rem;
     height: 45rem;
-    background-color: #fff7f1ab;
-    border: groove rgba(255, 162, 27, 0.5);
+    background-color:#fbfbfbd3;
+    border: 1px solid #53b1bd;
 }
 .markingPopup2{
     width: 100%;
@@ -293,8 +271,8 @@ section{
 .markingContent2{
     width: 50rem;
     height: 45rem;
-    background-color: #fff7f1ab;
-    border: groove rgba(255, 162, 27, 0.5);
+    background-color:#fbfbfbd3;
+    border: 1px solid #53b1bd;
 }
 .diaryMark{
     color:white;
@@ -308,7 +286,4 @@ section{
     text-shadow: none;
     color: black;
     font-weight: lighter;
-}
-.btn2{
-    float: left;
 }

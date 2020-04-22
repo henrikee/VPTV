@@ -17,7 +17,7 @@ include("includes/header.php");
     <span id="date"></span>
     <header>
         <h1>Tietopankki</h1>
-        <h3>Täältä löydät tietoa liikunnan määrästä, kuormittavuudesta ja terveyshyödyistä. <br>
+        <h3>Täältä löydät tietoa liikunnan määrästä, kuormittavuudesta ja terveyshyödyistä. <br><br>
         Klikkaa sivun vasemmalla puolella olevia linkkejä lukeaksesi vinkkejä!</h3>
     </header>
     <section>

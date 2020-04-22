@@ -134,11 +134,14 @@ header{
     margin-top: 80px;
     width: 100%;
     text-align: center;
+    background-color: #53b1bdd0;
+    padding-bottom: 3%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
 }
 h1,h3,span{
     color: #fbfbfb;
     clear: both;
-    text-shadow: 3px 3px 4px rgba(0,0,0,0.8);
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.9);
 }
 h1{
     text-align: center;
@@ -176,7 +179,6 @@ section{
     width: 100%;
 }
 #buttons{
-    background-color: rgba(187, 187, 187, 0.9);
     padding: 0;
     width: 25%;
     background-color:rgba(0, 0, 0, 0);
