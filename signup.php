@@ -32,13 +32,13 @@ include("includes/header.php");
     //Tarkistetaan syötteet myös palvelimella
     //Checking input from server
     if (strlen($_POST['givenUsername']) < 4) {
-      $_SESSION['swarningInput'] = "Illegal username (min 4 chars)";
+      $_SESSION['swarningInput'] = "Luo käyttäjänimi, joka on vähintään 4 merkkiä.";
     } else if (!filter_var($_POST['givenEmail'], FILTER_VALIDATE_EMAIL)) {
-      $_SESSION['swarningInput'] = "Illegal email";
-    } else if (strlen($_POST['givenPassword']) < 8) {
-      $_SESSION['swarningInput'] = "Illegal password (min 8 chars)";
+      $_SESSION['swarningInput'] = "Antamasi sähköposti on virheellinen, yritä uudelleen.";
+    } else if (strlen($_POST['givenPassword']) < 6) {
+      $_SESSION['swarningInput'] = "Luo salasana, joka on vähintään 6 merkkiä.";
     } else if ($_POST['givenPassword'] != $_POST['givenPasswordVerify']) {
-      $_SESSION['swarningInput'] = "Given password and verified not same";
+      $_SESSION['swarningInput'] = "Salasanat eivät täsmää, yritä uudelleen.";
     } else {
       unset($_SESSION['swarningInput']);
       //1. Tiedot sessioon
@@ -85,14 +85,10 @@ include("includes/header.php");
       }
     }
     if (isset($_SESSION['swarningInput'])) {
-      echo ("<h2>" . $_SESSION['swarningInput'] . "</h2>");
+      echo "<script>alert('". $_SESSION['swarningInput']."');</script>";
+      $_SESSION['swarningInput'] = NULL;
     }
   }
   ?>
-
-
-
-
 </body>
-
 </html>

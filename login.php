@@ -65,10 +65,10 @@ include("includes/header.php");
             //Return to the main site
             header("Location: Main.php"); 
           } else {
-            $_SESSION['swarningInput'] = "Wrong password";
+            $_SESSION['swarningInput'] = "Salasana on väärin, yritä uudelleen.";
           }
         } else {
-          $_SESSION['swarningInput'] = "Wrong email";
+          $_SESSION['swarningInput'] = "Sähköposti väärin, tarkista  ";
         }
       } catch (PDOException $e) {
         file_put_contents('log/DBErrors.txt', 'createAccount.php: ' . $e->getMessage() . "\n", FILE_APPEND);
@@ -94,8 +94,10 @@ include("includes/header.php");
   //***Do we show warning for invalid input?
   
   if (isset($_SESSION['swarningInput'])) {
-    echo ("<p class=\"warning\">ILLEGAL INPUT: " . $_SESSION['swarningInput'] . "</p>");
-  }
+    echo "<script>alert('". $_SESSION['swarningInput']."');</script>";
+    $_SESSION['swarningInput'] = NULL;
+    }
+  
   ?>
 
 </body>
