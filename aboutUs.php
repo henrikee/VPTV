@@ -42,20 +42,22 @@ include("includes/header.php");
                 5. Gold tai Platinum -asiakkaana voit valita ammattilaisen, joka tekee sinulle 4 viikon ohjelman ja seuraa edistymistäsi viikoittaisissa tarkistuksissa. 
             </p>
         <h2>Omistajat</h2>
-        <div class="boxPerson">
-            <h3>Scrum Master</h3>
-            <p>vastuualueet:<br><br><br><br><br>p.+358 50 9111 593<br>heinina@metropolia.fi</p>
-            <img src="img/heini.jpg" alt="heinii">
-        </div>
-        <div class="boxPerson">
-            <h3>Product Owner</h3>
-            <p>vastuualueet:<br><br><br><br><br>p.+358 44 5288389<br>tuomatur@metropolia.fi</p>
-            <img src="img/tumppi.jpg" alt="tumppii">
-        </div>
-        <div class="boxPerson">
-            <h3>Code Master [A L F A]</h3>
-            <p>vastuualueet:<br><br><br><br><br>p.+358 40 5571241<br>henrikee@metropolia.fi</p>
-            <img src="img/henkka.jpeg" alt="henkkaa">
+        <div class="owners">
+            <div class="boxPerson">
+                <h3>Scrum Master</h3>
+                <p class="pPerson">vastuualueet:<br><br><br><br><br>p.+358 50 9111 593<br>heinina@metropolia.fi</p>
+                <img src="img/heini.jpg" alt="heinii">
+            </div>
+            <div class="boxPerson">
+                <h3>Product Owner</h3>
+                <p class="pPerson">vastuualueet:<br><br><br><br><br>p.+358 44 5288389<br>tuomatur@metropolia.fi</p>
+                <img src="img/tumppi.jpg" alt="tumppii">
+            </div>
+            <div class="boxPerson">
+                <h3>Code Master [A L F A]</h3>
+                <p class="pPerson">vastuualueet:<br><br><br><br><br>p.+358 40 5571241<br>henrikee@metropolia.fi</p>
+                <img src="img/henkka.jpeg" alt="henkkaa">
+            </div>    
         </div>
     </div>
 </body>

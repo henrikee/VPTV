@@ -18,7 +18,7 @@ include("includes/header.php");
     <header>
         <h1>Yhteystiedot</h1>
     </header>
-    <section>
+        <section>
         <h2>Omistajat</h2>
         <div class="persons">
             <div class="boxPerson">
@@ -37,8 +37,6 @@ include("includes/header.php");
                 <img src="img/henkka.jpeg" alt="henkkaa">
             </div>
         <div>
-    </section>
-    <section>
         <h2>Valmentajat</h2>
         <div class="persons">
             <div class="boxPerson">
@@ -65,8 +63,7 @@ include("includes/header.php");
                 <img>
             </div>
         </div>
-    </section>
-
+        </section>
 <script>
     var date = new Date();
     //getting and displaying current date on page
