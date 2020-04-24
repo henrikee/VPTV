@@ -24,7 +24,7 @@
                         </div>
                 </div>
                 <div>
-                        <label class="diaryMarkingLabel">Syke treenin jälkeen<br></label>
+                        <label class="diaryMarkingLabel">Leposyke treenin jälkeen<br></label>
                         <input name="givenPulse" type="text" class="markingTxt" access="false">
                 </div>
                 <div class="">
