@@ -18,6 +18,9 @@
     <button type="reset"  value="Resetoi">Tyhjennä</button>
     <button type="submit" name="submitBack" value="Luovuta">Peruuta</button>
   </div>
+  <br>
+  <p>Etkö ole vielä rekisteröitynyt?</p>
+  <a id="signup" href="signup.php">Luo käyttäjätunnus!</a>
 </form>
 </fieldset>
 </div>

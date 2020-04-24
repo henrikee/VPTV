@@ -209,7 +209,6 @@ button:active {
     display: block;
     justify-content: space-evenly;
 }
-
 input{
     font-weight: bolder;
     width: 20vh;
@@ -218,6 +217,17 @@ input{
     margin-right: auto;
     display: block;
     background-color:#53b1bdab;
+}
+#signup{
+    text-decoration: underline;
+    color: #12646f;
+}
+#signup:hover{
+    color: black;
+}
+#signup:active{
+    color: #12646f;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.8);
 }
 @media only screen and (max-width: 625px){
     button{
