@@ -4,16 +4,16 @@
             <label class="diaryMarkingLabel">Sukupuoli</label><br>
             <div class="radio-group">
                 <div>
-                    <input name="radEx" access="false" name="givenGender" type="radio" checked="unchecked">
+                    <input value="mies" access="false" name="givenGender" type="radio" checked="unchecked">
                     <label class="diaryMarkingLabel">Mies</label>
                 </div>
                 <div>
-                    <input name="radEx" access="false" name="givenGender" type="radio">
-                    <label for="radEx-1" class="diaryMarkingLabel">Nainen</label>
+                    <input value="nainen" access="false" name="givenGender" type="radio">
+                    <label class="diaryMarkingLabel">Nainen</label>
                 </div>
                 <div>
-                    <input name="radEx" name="givenGender" access="false" id="radEx-2" type="radio">
-                    <label for="radEx-2" class="diaryMarkingLabel">Muu</label>
+                    <input value="muu" name="givenGender" access="false" type="radio">
+                    <label  class="diaryMarkingLabel">Muu</label>
                 </div>
             </div>
         </div>
