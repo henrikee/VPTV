@@ -68,7 +68,7 @@ include("includes/header.php");
           $_SESSION['swarningInput'] = "Email is reserved";
         }
       } catch (PDOException $e) {
-        file_put_contents('log/DBErrors.txt', 'signInUser.php: ' . $e->getMessage() . "\n", FILE_APPEND);
+        file_put_contents('log/DBErrors.txt', 'signup.php: ' . $e->getMessage() . "\n", FILE_APPEND);
         $_SESSION['swarningInput'] = 'Database problem';
       }
 
