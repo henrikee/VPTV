@@ -134,19 +134,21 @@ header{
     padding-bottom: 3%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
 }
-h1,span{
+h1,h2,span{
     color: #fbfbfb;
     clear: both;
     text-shadow: 3px 3px 4px rgba(0,0,0,0.9);
 }
 h1{
+    margin-top: 7rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+h1,h2{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 7rem;
-    text-transform: uppercase;
-    font-weight: lighter;
     letter-spacing: 1px;
 }
 span{
@@ -160,19 +162,30 @@ section{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    width: 80%;
+    display: flex;
+    flex-direction: row;
 }
 .card{
-    display: inline-block;
-    width: 20%;
-    margin: 2%;
-    padding: 2%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 50vh;
+    display: block;
+    margin: 2vh;
+    padding: 1vh;
     background-color:#fbfbfbd3;
     border: 1px solid #53b1bd;
     border-radius: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
-    margin-bottom: 2%;
+}
+p{
+    display: contents;
+    padding: 1vh;
+    float: left;
+    text-align: left;
+}
+img{
+    max-width: 96%;
+    display: block;
 }
 
 
