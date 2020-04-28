@@ -24,7 +24,7 @@ include("includes/header.php");
             <div class="persons">
             <div class="boxPerson">
                     <h3>Tuomas Turunen</h3>
-                    <p>Product Owner<br>Tuomas, tai tuttavallisemmin Tumppi, on tiimimme idearikas koodivelho. Hän vastasi sovelluksen luonnissa pääasiassa sivuston ominaisuuksien toimivuudesta. Vapaa-ajalla Tumpin voi löytää keittiöstä culinarisoimasta, uima-altaasta polskuttelemasta tai kantamassa tiimiään League of Legends -pelistä.<br><br>Puh. +358 44 528 8389<br>E-mail: tuomatur@metropolia.fi</p>
+                    <p>Product Owner<br>Tuomas, tai tuttavallisemmin Tumppi, on tiimimme idearikas koodivelho. Hän vastasi sovelluksen luonnissa pääasiassa sivuston ominaisuuksien toimivuudesta. Vapaa-ajalla Tumpin voi löytää keittiöstä culinarisoimasta, uima-altaasta polskuttelemasta tai kantamassa tiimiään League of Legends -pelissä.<br><br>Puh. +358 44 528 8389<br>E-mail: tuomatur@metropolia.fi</p>
                     <img src="img/tumppi.jpg" alt="tumppii">
                 </div>
                 <div class="boxPerson">
@@ -34,7 +34,7 @@ include("includes/header.php");
                 </div>
                 <div class="boxPerson">
                     <h3>Henrik el-Khouri</h3>
-                    <p>Code Master<br>Henkka, virallisesti Henrik, on tiimin rautahermoinen <br><br><br><br>Puh. +358 40 557 1241<br>E-mail: henrikee@metropolia.fi</p>
+                    <p>Code Master<br>Henkka, virallisesti Henrik, omistaa tiimin rautaisimmat hermot sekä vankan työotteen, työn tauottaminen tuottaa parhaita tuloksia. Henkka on sovelluksen tietokantojen isä ja vastaa niiden toimivuudesta. Vapaa-ajalla Henkan löytää yleensä treenaamasta painisalilta, ruokalevolta tai dominoimasta Owerwatchissa.<br><br>Puh. +358 40 557 1241<br>E-mail: henrikee@metropolia.fi</p>
                     <img src="img/henkka.jpeg" alt="henkkaa">
                 </div>
             <div>
@@ -54,8 +54,8 @@ include("includes/header.php");
                 </div>
                 <div class="boxPerson">
                     <h3>Ravitsemusterapeutti</h3>
-                    <p>Syötkö sinulle sopivalla tavalla? Kärsitkö mahdollisesti 2 tyypin diabeteksesta ja haluaisit helpottaa sitä ruokavalion avulla?<br>Terveellinen ravitsemus on yksi isoimmista asioista, joka tukee pidempää tervettä ikää, eikä kaikille sovi samanlainen ruokavalio.<br>Varaa aika ravitsemusterapeutin konsultaatioon sekä 4 viikon henkilökohtaisen ravitsemussuunnitelman tekoon!<br>Soita ravitsemusterapeutin numeroon arkisin klo 8-18 tai lähetä sähköpostia ja ravitsemusterapeuttimme vastaa sinulle pikimmiten.<br>Puh. +358 32 132 1321<br>E-mail: ravitsemus@virtualpt.fi</p>
-                    <img>
+                    <p>Syötkö sinulle sopivalla tavalla? Kärsitkö mahdollisesti 2 tyypin diabeteksesta ja haluaisit helpottaa sitä ruokavalion avulla?<br>Terveellinen ravitsemus on yksi isoimmista asioista, joka tukee pidempää tervettä ikää, eikä kaikille sovi samanlainen ruokavalio.<br>Varaa aika ravitsemusterapeutin konsultaatioon sekä 4 viikon henkilökohtaisen ravitsemussuunnitelman tekoon!<br>Soita ravitsemusterapeutin numeroon arkisin klo 8-18 tai lähetä sähköpostia ja ravitsemusterapeuttimme vastaa sinulle pikimmiten.<br>Puh. +358 32 132 1321<br>E-mail: ravitsemus@virtualpt.fi
+                    </p>
                 </div>
             </div>
         </section>

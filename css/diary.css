@@ -250,6 +250,8 @@ section{
     display: none;
 }
 .markingContent{
+    padding: 2vh;
+    z-index: 1;
     width: 50rem;
     height: 45rem;
     background-color:#fbfbfbd3;
@@ -267,6 +269,8 @@ section{
     display: none;
 }
 .markingContent2{
+    padding: 2vh;
+    z-index: 1;
     width: 50rem;
     height: 45rem;
     background-color:#fbfbfbd3;
