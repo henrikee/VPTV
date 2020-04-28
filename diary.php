@@ -52,6 +52,7 @@ include("includes/header.php");
     ?>
     </p>
 </div>
+
 <script>
     var date = new Date();
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
