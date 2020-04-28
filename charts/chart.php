@@ -14,7 +14,7 @@
           //PHP KOODI
           <?php
               $myConnection= mysqli_connect("$host","$user","$pass","$dbname") or die ("could not connect to mysql"); 
-              $sqlCommand="SELECT CONVERT(Date, getDate()),Length,Pulse FROM testi_projekti_paivakirja WHERE userID = '".$_SESSION['userID']."'";
+              $sqlCommand="SELECT Date,Length,Pulse FROM testi_projekti_paivakirja WHERE userID = '".$_SESSION['userID']."'";
               $query=mysqli_query($myConnection, $sqlCommand) or die(mysqli_error($myConnection));
               while($data=mysqli_fetch_array($query)){
                 $Date=$data['Date'];
