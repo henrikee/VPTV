@@ -21,18 +21,18 @@ include("includes/header.php");
         <h2>Omistajat</h2>
         <div class="persons">
             <div class="boxPerson">
-                <h3>Scrum Master</h3>
-                <p>vastuualueet:<br><br><br><br><br>p.+358 50 9111 593<br>heinina@metropolia.fi</p>
-                <img src="img/heini.jpg" alt="heinii">
-            </div>
-            <div class="boxPerson">
-                <h3>Product Owner</h3>
-                <p>vastuualueet:<br><br><br><br><br>p.+358 44 5288389<br>tuomatur@metropolia.fi</p>
+                <h3>Tuomas Turunen</h3>
+                <p>Product Owner<br>Tuomas, tai tuttavallisemmin Tumppi, on tiimimme idearikas koodivelho. Hän vastasi sovelluksen luonnissa pääasiassa sivuston ominaisuuksien toimivuudesta. Vapaa-ajalla Tumpin voi löytää keittiöstä culinarisoimasta, uima-altaasta polskuttelemasta tai kantamassa tiimiään League of Legends -pelissä.<br><br>Puh. +358 44 528 8389<br>E-mail: tuomatur@metropolia.fi</p>
                 <img src="img/tumppi.jpg" alt="tumppii">
             </div>
             <div class="boxPerson">
-                <h3>Code Master [A L F A]</h3>
-                <p>vastuualueet:<br><br><br><br><br>p.+358 40 5571241<br>henrikee@metropolia.fi</p>
+                <h3>Heini Näppä</h3>
+                <p>Scrum Master<br>Heini, toisinaan Hese, on tiimin ilopilleri sekä naisvahvistus. Heinin kädenjälki näkyy pääasiassa sovelluksen fronttipuolella eikä työskennellessä ideoille näy loppua. Vapaa-ajalla Hesen löytää tavallisimmin lenkkipolulta, mummolasta tai pleikkarin äärestä.<br><br>Puh. +358 50 911 1593<br>E-mail: heinina@metropolia.fi</p>
+                <img src="img/heini.jpg" alt="heinii">
+            </div>
+            <div class="boxPerson">
+                <h3>Henrik el-Khouri</h3>
+                <p>Code Master<br>Henkka, virallisesti Henrik, omistaa tiimin rautaisimmat hermot sekä vankan työotteen, työn tauottaminen tuottaa parhaita tuloksia. Henkka on sovelluksen tietokantojen isä ja vastaa niiden toimivuudesta. Vapaa-ajalla Henkan löytää yleensä treenaamasta painisalilta, ruokalevolta tai dominoimasta Owerwatchissa.<br><br>Puh. +358 40 557 1241<br>E-mail: henrikee@metropolia.fi</p>
                 <img src="img/henkka.jpeg" alt="henkkaa">
             </div>
         </div>
@@ -40,8 +40,8 @@ include("includes/header.php");
         <div class="persons">
                 <div class="boxPerson">
                     <h3>Asiakaspalvelu</h3>
-                    <p>Onko sinulla kysyttävää? Lähetä meille sähköpostia! Asiakaspalvelumme vastaa mielellään sinua askarruttaviin kysymyksiin.<br>E-mail: asiakaspalvelu@virtualpt.fi</p>
-                    <img>
+                    <p>Onko sinulla kysyttävää? Lähetä meille sähköpostia! Asiakaspalvelumme vastaa mielellään sinua askarruttaviin kysymyksiin.<br>E-mail: asiakaspalvelu@virtualpt.fi
+                    </p>
                 </div>
             </div>
     </section>

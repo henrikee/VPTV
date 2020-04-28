@@ -13,7 +13,7 @@
           
           //PHP KOODI
           <?php
-              $myConnection= mysqli_connect("$host","$user","$pass","$dbname") or die ("could not connect to mysql"); 
+              $myConnection= mysqli_connect("$host","$user","$pass","$dbname") or die ("Virhe muodostettaessa yhteyttä tietokantaan. Ota yhteyttä asiakaspalveluun."); 
               $sqlCommand="SELECT Date,Length,Pulse FROM testi_projekti_paivakirja WHERE userID = '".$_SESSION['userID']."'";
               $query=mysqli_query($myConnection, $sqlCommand) or die(mysqli_error($myConnection));
               while($data=mysqli_fetch_array($query)){
@@ -24,9 +24,7 @@
            ['<?php echo $Date;?>',<?php echo $Pulse;?>,<?php echo $Length;?>], 
           <?php      
               }
-
           ?> 
- 
         ]);
 
         var options = {
@@ -36,7 +34,7 @@
         };
 
         var chart = new google.visualization.LineChart 
-(document.getElementById('curve_chart'));
+        (document.getElementById('curve_chart'));
 
         chart.draw(data, options);
       }

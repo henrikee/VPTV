@@ -53,6 +53,12 @@ include("includes/header.php");
     </p>
 </div>
 
+<div class="pulseChart">
+    <?php
+        include("charts/pulseChart.php")
+    ?>
+</div>
+
 <script>
     var date = new Date();
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
