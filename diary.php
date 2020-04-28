@@ -7,7 +7,7 @@ include("includes/header.php");
 <html xmlns="http://www.w3.org/1999/xhtml">
 <html lang="en">
 <head>
-    <title>Päiväkirja</title>
+    <title>Virtual PT - Päiväkirja</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/diary.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Gotu&display=swap" rel="stylesheet">

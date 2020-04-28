@@ -11,7 +11,7 @@ include("includes/header.php");
     <link rel="stylesheet" href="css/contactsIn.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Gotu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Document</title>
+    <title>Virtual PT - Yhteystiedot</title>
 </head>
 <body>
     <span id="date"></span>
