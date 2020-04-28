@@ -7,21 +7,8 @@
                         <input type="text" name="givenEx" class="markingTxt" access="false">
                 </div>
                 <div>
-                        <label class="diaryMarkingLabel">Liikunnan kesto<br></label>
-                        <div class="radio-group">
-                                <div>
-                                        <input name="givenLength" access="false" id="radEx-0" type="radio" checked="unchecked" value="alle 30 min">
-                                        <label class="diaryMarkingLabel">alle 30 min</label>
-                                </div>
-                                <div>
-                                        <input name="givenLength" access="false" id="radEx-1" type="radio" value="30-60 min">
-                                        <label for="radEx-1" class="diaryMarkingLabel">30-60 min</label>
-                                </div>
-                                <div>
-                                        <input name="givenLength" access="false" id="radEx-2" type="radio" value="yli 60 min">
-                                        <label for="radEx-2" class="diaryMarkingLabel">yli 60 min</label>
-                                </div>
-                        </div>
+                        <label class="diaryMarkingLabel">Treenin kesto minuutteina<br></label>
+                        <input name="givenLength" type="text" class="markingTxt" access="false">
                 </div>
                 <div>
                         <label class="diaryMarkingLabel">Leposyke treenin jälkeen<br></label>
