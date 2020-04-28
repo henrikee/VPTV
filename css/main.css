@@ -121,14 +121,12 @@ a.active,a:hover{
     #check:checked ~ ul{
         left: 0;
     }
-    span{
-        font-size: smaller;
-    }
 }
 
 /*body*/
 header{
     margin-top: 80px;
+    margin-bottom: 2vh;
     width: 100%;
     text-align: center;
     background-color: #53b1bdda;
@@ -149,6 +147,7 @@ h1{
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 1px;
+    font-size: clamp(25px, 2vw, 45px);
 }
 span{
     justify-content: center;
@@ -168,7 +167,7 @@ section{
 .card{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 50vw;
     padding: 1rem;
     background-color:#fbfbfbd3;
     border: 1px solid #53b1bd;
@@ -212,6 +211,13 @@ p{
     position: relative;
 	top:1px;
 }
-
+@media only screen and (max-width: 1236px){
+    .card{
+        width: 80vw;
+    }
+    span{
+        font-size: smaller;
+    }
+}
 
 

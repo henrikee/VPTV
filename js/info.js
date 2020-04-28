@@ -3,12 +3,20 @@ var date = new Date();
 document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
 
 //functions for buttons, all are the same
-function func1(){
+function func0(){
     //find the exact element
-    var x = document.getElementById("p1");
+    var x = document.getElementById("p0");
     //check if element is displayed
     if (x.style.display === "none") {
     //change display to block if needed
+    x.style.display = "block";
+    }else{
+    x.style.display = "none";
+    }
+}
+function func1(){
+    var x = document.getElementById("p1");
+    if (x.style.display === "none") {
     x.style.display = "block";
     }else{
     x.style.display = "none";
