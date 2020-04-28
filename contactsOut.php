@@ -36,6 +36,14 @@ include("includes/header.php");
                 <img src="img/henkka.jpeg" alt="henkkaa">
             </div>
         </div>
+        <h2>Asiakaspalvelu</h2>
+        <div class="persons">
+                <div class="boxPerson">
+                    <h3>Asiakaspalvelu</h3>
+                    <p>Onko sinulla kysyttävää? Lähetä meille sähköpostia! Asiakaspalvelumme vastaa mielellään sinua askarruttaviin kysymyksiin.<br>E-mail: asiakaspalvelu@virtualpt.fi</p>
+                    <img>
+                </div>
+            </div>
     </section>
 </body>
 </html>

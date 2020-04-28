@@ -25,17 +25,17 @@ include("includes/header.php");
     <section>
         <div class="card">
             <h3>Päiväkirja aktiivisuuden seurantaan.</h3>
-            <p>nönnönnööö</p>
+            <p>Päiväkirjaan voit kirjoittaa ja tallentaa tietoja päivästäsi sekä terveystiedoistasi.</p>
             <a class="button" href="diary.php">Näe lisää...</a>
         </div>
         <div class="card">
             <h3>Ideoita liikkumiseen ja harjoitteluun.</h3>
-            <p>setit tähä</p>
+            <p>Etkö tiedä miten kannattaisi liikkua tai aloittaa liikunta? Liikunta sivulta löydät ohjelmia, miten voisit liikkua viikkotasolla ja ideoita, miten voit esimerksi kehittää tasapainoasi.</p>
             <a class="button" href="exersice.php">Näe lisää...</a>
         </div>
         <div class="card">
             <h3>Aktiivinen seniori on terve seniori, mutta miksi?</h3>
-            <p>päläpäläpälä</p>
+            <p>Tietopankkista löydät artikkeleita, joihin on koottu tietoa mm. liikuntasuosituksista ja liikunnan hyödyistä.</p>
             <a class="button" href="info.php">Näe lisää...</a>
         </div>
     </section>

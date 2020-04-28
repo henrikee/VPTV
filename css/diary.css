@@ -120,9 +120,6 @@ a.active,a:hover{
     #check:checked ~ ul{
         left: 0;
     }
-    span{
-        font-size: smaller;
-    }
 }
 
 /*body*/
@@ -148,6 +145,7 @@ h1{
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 1px;
+    font-size: clamp(25px, 2vw, 45px);
 }
 h3{
     text-transform: uppercase;
@@ -286,4 +284,9 @@ section{
     text-shadow: none;
     color: black;
     font-weight: lighter;
+}
+@media only screen and (max-width: 1236px){
+    span{
+        font-size: smaller;
+    }
 }
