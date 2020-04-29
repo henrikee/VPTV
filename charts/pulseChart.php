@@ -23,9 +23,7 @@
            ['<?php echo substr($Date,0,10);?>',<?php echo $Pulse;?>,<?php echo $Length;?>], 
           <?php      
               }
-
           ?> 
- 
         ]);
 
         var options = {
@@ -35,7 +33,7 @@
         };
 
         var chart = new google.visualization.LineChart 
-(document.getElementById('curve_chart'));
+        (document.getElementById('curve_chart'));
 
         chart.draw(data, options);
       }
