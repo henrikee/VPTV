@@ -52,7 +52,7 @@ include("includes/header.php");
     ?>
     </p>
 </div>
-
+<?php include("charts/chart.php");?>
 <script>
     var date = new Date();
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
