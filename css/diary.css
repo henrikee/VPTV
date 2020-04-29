@@ -268,6 +268,8 @@ span{
     color: black;
     font-weight: lighter;
 }
+
+/*charts and healthdata*/
 .charts{
     width: 96vw;
     margin-left: auto;
@@ -277,6 +279,7 @@ span{
     flex-direction: row;
 }
 .pulseChart_pulseInfo{
+    border-radius: 5px;
     margin: 1vh;
     background-color:#fbfbfbd3;
     border: 1px solid #53b1bd;
@@ -287,20 +290,19 @@ span{
     justify-content: center;
 }
 #curve_chart{
-    display: block;
     margin: auto;
-    width: 40vw; 
+    display: block;
+    padding: 1%;
+    width: 39vw; 
     height: 35vh;
     background-color:#fbfbfbd3;
-    border: 1px solid #53b1bd;
+    border-top: 1px solid #53b1bd;
+    border-bottom: 1px solid #53b1bd;
 }
 .pulseInfo{
     padding: 1%;
     display: block;
     width: 100%;
-}
-rect{
-    padding: 1%;
 }
 .hdata{
     overflow-x: hidden;
@@ -331,5 +333,8 @@ tr{
 @media only screen and (max-width: 1236px){
     span{
         font-size: smaller;
+    }
+    .charts{
+        flex-direction: column;
     }
 }

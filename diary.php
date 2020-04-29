@@ -11,7 +11,6 @@ include("includes/header.php");
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/diary.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Gotu&display=swap" rel="stylesheet">
-    <link href="themes/light.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
@@ -44,7 +43,7 @@ include("includes/header.php");
         <?php
             include("charts/pulseChart.php");
         ?>
-        <p class="pulseInfo">Palautumissykkeesi kertoo sinulle nimensä mukaisesti, kuinka hyvin palaudut treenistä. Palautumissyke miinustetaan maksimisykkeestä, johon sinulla on mahdollista yltää. Mitä suurempi erotus on, sitä nopeammin palautuminen alkaa. Suurempi erotus kuvastaa parempaa kuntoa ja sitä, ettei keho ole ylikuormittunut liiasta treenaamisesta. 
+        <p class="pulseInfo">Palautumissykkeesi kertoo sinulle nimensä mukaisesti, kuinka hyvin palaudut treenistä. Palautumissyke miinustetaan maksimisykkeestä, johon sinulla on mahdollisuus yltää. Mitä suurempi erotus on, sitä nopeammin palautuminen alkaa. Suurempi erotus kuvastaa parempaa kuntoa ja sitä, ettei keho ole ylikuormittunut liiasta treenaamisesta tai muista elämän vilskeistä. Keskimääräinen laskukaava maksimisykkeelle on 220 - ikä.
         </p>
     </div>
     <?php
