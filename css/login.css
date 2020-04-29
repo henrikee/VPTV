@@ -125,6 +125,7 @@ a.active,a:hover{
 header{
     margin-top: 80px;
     width: 100%;
+    margin-bottom: 2vh;
     text-align: center;
     background-color: #53b1bdda;
     padding-bottom: 3%;
@@ -143,6 +144,7 @@ h1{
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 1px;
+    font-size: clamp(25px, 2vw, 45px);
 }
 h2{
     text-align: center;
@@ -150,6 +152,7 @@ h2{
     margin-right: auto;
     display: block;
     text-transform: uppercase;
+    font-size: clamp(18px, 1.5vw, 30px);
 }
 .boxLogin {
     text-align: center;

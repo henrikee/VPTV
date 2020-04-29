@@ -120,19 +120,13 @@ a.active,a:hover{
     #check:checked ~ ul{
         left: 0;
     }
-    span{
-        font-size: smaller;
-    }
-    /*body mediasäännöt*/
-    header{
-        font-size: smaller;
-    }
 }
 
 /*body*/
 header{
     margin-top: 80px;
     width: 100%;
+    margin-bottom: 2vh;
     text-align: center;
     background-color: #53b1bdd0;
     padding-bottom: 3%;
@@ -152,6 +146,7 @@ h1{
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 1px;
+    font-size: clamp(25px, 2vw, 45px);
 }
 h3{
     text-align: center;
@@ -162,7 +157,7 @@ h3{
     letter-spacing: 1px;
     margin-top: 1%;
     margin-bottom: 1%;
-    width: 40%;
+    font-size: clamp(18px, 1.5vw, 30px);
 }
 span{
     justify-content: center;
@@ -179,11 +174,15 @@ section{
     width: 100%;
 }
 #buttons{
+    margin-left: 1vw;
+    border: 1px solid #53b1bd;
+    background-color: #fbfbfbd3;
+    display: flex;
+    flex-direction: column;
     padding: 0;
     width: 25%;
-    background-color:rgba(0, 0, 0, 0);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
     position: fixed;
-    height: 100%;
   }
 #buttons button{
     display: block;
@@ -197,8 +196,8 @@ section{
     background-color: #fbfbfb00;
 }
 #buttons button:hover{
-    color: #fafafa;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.9);
+    color: #12646f;
+    text-shadow: 2px 2px 3px #fbfbfbc5;
     transition: .5s;
 }
 #buttons button:active{
@@ -206,6 +205,7 @@ section{
     text-shadow: 2px 2px 3px #fbfbfb;
 }
 #info{
+    display: block;
     margin-right: 10%;
     margin-left: 25%;
     padding: 1px 16px;
@@ -215,6 +215,7 @@ section{
 }
 p{
     font-size: larger;
+    margin-left: 2vw;
     font-weight: 500;
     display: none;
     position: relative;
@@ -232,7 +233,6 @@ p{
         transition: all .5s ease;
     }
     #buttons{
-        display: block;
         margin-left: 5%;
         transition: all .5s ease;
     }
@@ -240,10 +240,17 @@ p{
         text-align: center;
         float: none;
     }
+    span{
+        font-size: smaller;
+    }
 }
 @media only screen and (max-width: 923px){
     #buttons{
-        width: 100%;
+        float: none;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
         height: auto;
         position: relative;
     }
@@ -251,10 +258,10 @@ p{
         padding: 1%;
     }
     #info{
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90vw;
     }
-    #info p{margin-left: 0;}
     #buttons{
         text-align: center;
         float: none;
@@ -267,7 +274,7 @@ p{
         float: none;
     }
     #info p{
-        font-size: smaller;
+        font-weight: 400;
     }
     #date{
         font-size: smaller;
@@ -275,9 +282,9 @@ p{
 }
 img{
     display: block;
-    width: 75%;
+    width: 70%;
     border-radius: 5px;
-    max-height: 90%;
+    max-height: 80%;
     margin-left: 12.5%;
     justify-content: center;
 }

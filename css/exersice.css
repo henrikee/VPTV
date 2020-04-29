@@ -120,9 +120,6 @@ a.active,a:hover{
     #check:checked ~ ul{
         left: 0;
     }
-    span{
-        font-size: smaller;
-    }
 }
 
 /*body*/
@@ -143,6 +140,11 @@ h1{
     margin-top: 7rem;
     text-transform: uppercase;
     font-weight: lighter;
+    font-size: clamp(25px, 2vw, 45px);
+}
+h2{
+    margin-top: 1vh;
+    font-size: clamp(18px, 1.5vw, 30px);
 }
 h1,h2{
     text-align: center;
@@ -186,6 +188,27 @@ p{
 img{
     max-width: 96%;
     display: block;
+}
+@media only screen and (max-width: 1937px){
+    section{
+        flex-direction: column;
+    }
+    .card{
+        margin-right: auto;
+        margin-left: auto;
+        width:80vw
+    }
+}
+@media only screen and (max-width: 1236px){
+    span{
+        font-size: smaller;
+    }
+}
+@media only screen and (max-width: 923px){
+    .card{
+        width: 90vw;
+        height: 60vh;
+    }
 }
 
 

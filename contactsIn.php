@@ -22,19 +22,19 @@ include("includes/header.php");
         <section>
             <h2>Omistajat</h2>
             <div class="persons">
-                <div class="boxPerson">
-                    <h3>Scrum Master</h3>
-                    <p>vastuualueet:<br><br><br><br><br>p.+358 50 911 1593<br>heinina@metropolia.fi</p>
-                    <img src="img/heini.jpg" alt="heinii">
-                </div>
-                <div class="boxPerson">
-                    <h3>Product Owner</h3>
-                    <p>vastuualueet:<br><br><br><br><br>p.+358 44 528 8389<br>tuomatur@metropolia.fi</p>
+            <div class="boxPerson">
+                    <h3>Tuomas Turunen</h3>
+                    <p>Product Owner<br>Tuomas, tai tuttavallisemmin Tumppi, on tiimimme idearikas koodivelho. Hän vastasi sovelluksen luonnissa pääasiassa sivuston ominaisuuksien toimivuudesta. Vapaa-ajalla Tumpin voi löytää keittiöstä culinarisoimasta, uima-altaasta polskuttelemasta tai kantamassa tiimiään League of Legends -pelistä.<br><br>Puh. +358 44 528 8389<br>E-mail: tuomatur@metropolia.fi</p>
                     <img src="img/tumppi.jpg" alt="tumppii">
                 </div>
                 <div class="boxPerson">
-                    <h3>Code Master [A L F A]</h3>
-                    <p>vastuualueet:<br><br><br><br><br>p.+358 40 557 1241<br>henrikee@metropolia.fi</p>
+                    <h3>Heini Näppä</h3>
+                    <p>Scrum Master<br>Heini, toisinaan Hese, on tiimin ilopilleri sekä naisvahvistus. Heinin kädenjälki näkyy pääasiassa sovelluksen fronttipuolella eikä työskennellessä ideoille näy loppua. Vapaa-ajalla Hesen löytää tavallisimmin lenkkipolulta, mummolasta tai pleikkarin äärestä.<br><br>Puh. +358 50 911 1593<br>E-mail: heinina@metropolia.fi</p>
+                    <img src="img/heini.jpg" alt="heinii">
+                </div>
+                <div class="boxPerson">
+                    <h3>Henrik el-Khouri</h3>
+                    <p>Code Master<br>Henkka, virallisesti Henrik, on tiimin rautahermoinen <br><br><br><br>Puh. +358 40 557 1241<br>E-mail: henrikee@metropolia.fi</p>
                     <img src="img/henkka.jpeg" alt="henkkaa">
                 </div>
             <div>
@@ -44,17 +44,17 @@ include("includes/header.php");
             <div class="persons">
                 <div class="boxPerson">
                     <h3>Fysioterapeutti</h3>
-                    <p>vastuualueet:<br><br><br><br><br>p.+358 12 345 6789<br>fysioterapia@virtualpt.fi</p>
+                    <p>Onko sinulla liikkumista rajoittavia vammoja/tiloja tai oletko toipumassa leikkauksesta?<br>Varaa aika fysioterapeutin konsultaatioon sekä 4 viikon henkilökohtaisen liikuntasuunnitelman tekoon!<br>Soita fysioterapeutin numeroon arkisin klo 8-18 tai lähetä sähköpostia ja fysioterpauttimme vastaa sinulle pikimmiten.<br>Puh. +358 12 345 6789<br>E-mail: fysioterapia@virtualpt.fi</p>
                     <img>
                 </div>
                 <div class="boxPerson">
                     <h3>Liikunnanohjaaja</h3>
-                    <p>vastuualueet:<br><br><br><br><br>p.+358 98 765 4321<br>liikunta@virtualpt.fi</p>
+                    <p>Haluatko yksilöllistä ohjausta liikuntaan ja kehityksen seurantaan?<br>Varaa aika liikunnanohjaajan konsultaatioon sekä 4 viikon henkilökohtaisen treeniohjelman tekoon!<br>Soita liikunnanohjaajan numeroon arkisin klo 8-18 tai lähetä sähköpostia ja liikunnanohjaajamme vastaa sinulle pikimmiten.<br>Puh. +358 98 765 4321<br>E-mail: liikunta@virtualpt.fi</p>
                     <img>
                 </div>
                 <div class="boxPerson">
                     <h3>Ravitsemusterapeutti</h3>
-                    <p>vastuualueet:<br><br><br><br><br>p.+358 32 132 1321<br>ravitsemus@virtualpt.fi</p>
+                    <p>Syötkö sinulle sopivalla tavalla? Kärsitkö mahdollisesti 2 tyypin diabeteksesta ja haluaisit helpottaa sitä ruokavalion avulla?<br>Terveellinen ravitsemus on yksi isoimmista asioista, joka tukee pidempää tervettä ikää, eikä kaikille sovi samanlainen ruokavalio.<br>Varaa aika ravitsemusterapeutin konsultaatioon sekä 4 viikon henkilökohtaisen ravitsemussuunnitelman tekoon!<br>Soita ravitsemusterapeutin numeroon arkisin klo 8-18 tai lähetä sähköpostia ja ravitsemusterapeuttimme vastaa sinulle pikimmiten.<br>Puh. +358 32 132 1321<br>E-mail: ravitsemus@virtualpt.fi</p>
                     <img>
                 </div>
             </div>
@@ -63,8 +63,8 @@ include("includes/header.php");
         <section>
             <div class="persons">
                 <div class="boxPerson">
-                    <h3>aspa</h3>
-                    <p>vastuualueet:<br><br><br><br><br>p.+358 12 312 3123<br>asiakaspalvelu@virtualpt.fi</p>
+                    <h3>Asiakaspalvelu</h3>
+                    <p>Onko sinulla kysyttävää? Lähetä meille sähköpostia! Asiakaspalvelumme vastaa mielellään sinua askarruttaviin kysymyksiin.<br>asiakaspalvelu@virtualpt.fi</p>
                     <img>
                 </div>
             </div>

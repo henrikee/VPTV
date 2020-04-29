@@ -119,14 +119,12 @@ a.active,a:hover{
     #check:checked ~ ul{
         left: 0;
     }
-    span{
-        font-size: smaller;
-    }
 }
 
 /*body*/
 header{
     margin-top: 80px;
+    margin-bottom: 2vh;
     width: 100%;
     text-align: center;
     background-color: #53b1bdd0;
@@ -146,6 +144,7 @@ h1{
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: 1px;
+    font-size: clamp(25px, 2vw, 45px);
 }
 p{
     color: #fbfbfb;
@@ -183,9 +182,6 @@ p{
     background-color:#53b1bdab;
     border-radius: 3px;
     border: 1px solid #53b1bd;
-}
-.form input:invalid{
-    border: 1px solid red;
 }
 
 button{
