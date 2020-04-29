@@ -53,9 +53,9 @@ include("includes/header.php");
     </p>
 </div>
 
-<div class="pulseChart">
+<div class="charts">
     <?php
-        include("charts/pulseChart.php")
+        include("charts/pulseChart.php");
     ?>
 </div>
 
@@ -64,5 +64,9 @@ include("includes/header.php");
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
 </script>
 <script src="js/diary.js"></script>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 </body>
 </html>
