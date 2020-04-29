@@ -64,9 +64,5 @@ include("includes/header.php");
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
 </script>
 <script src="js/diary.js"></script>
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 </body>
 </html>

@@ -14,28 +14,20 @@
           //PHP KOODI
           <?php
               $myConnection= mysqli_connect("$host","$user","$pass","$dbname") or die ("Virhe muodostettaessa yhteyttä tietokantaan. Ota yhteyttä asiakaspalveluun."); 
-<<<<<<< Updated upstream
-              $sqlCommand="SELECT Date,Length,Pulse FROM testi_projekti_paivakirja WHERE userID = '".$_SESSION['userID']."'";
-=======
               $sqlCommand="SELECT Date,Pulse FROM testi_projekti_paivakirja WHERE userID = '".$_SESSION['userID']."' ORDER BY Date DESC LIMIT 7";
->>>>>>> Stashed changes
               $query=mysqli_query($myConnection, $sqlCommand) or die(mysqli_error($myConnection));
               while($data=mysqli_fetch_array($query)){
                 $Date=$data['Date'];
                 $Pulse=$data['Pulse'];
           ?>  
-<<<<<<< Updated upstream
-           ['<?php echo $Date;?>',<?php echo $Pulse;?>,<?php echo $Length;?>], 
-=======
            ['<?php echo substr($Date,0,10);?>',<?php echo $Pulse;?>], 
->>>>>>> Stashed changes
           <?php      
               }
           ?> 
         ]);
 
         var options = {
-          title: 'Palautumissykkeen vaihtelu 7 edellisestä treenistä.',
+          title: 'Palautumissykkeen vaihtelu 7:stä edellisestä treenistä.',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
