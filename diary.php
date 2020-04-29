@@ -39,12 +39,14 @@ include("includes/header.php");
         ?>
     </div>
 </div>
-<?php
-    include("includes/diaryOpenHealthInfo.php");
- ?>
-<?php
-    include("charts/pulseChart.php");
-?>
+<div class="charts">
+    <?php
+        include("includes/diaryOpenHealthInfo.php");
+    ?>
+    <?php
+        include("charts/pulseChart.php");
+    ?>
+</div>
 <script>
     var date = new Date();
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
