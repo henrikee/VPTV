@@ -1,7 +1,6 @@
 <html>
   <head>
-    <script type="text/javascript" 
- src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
@@ -39,6 +38,6 @@
     </script>
   </head>
   <body>
-    <div id="curve_chart" style="width: 40vw; height: 35vh"></div>
+    <div id="curve_chart"></div>
   </body>
 </html>
