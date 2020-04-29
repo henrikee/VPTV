@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <script type="text/javascript" 
@@ -13,7 +12,7 @@
           
           //PHP KOODI
           <?php
-              $myConnection= mysqli_connect("$host","$user","$pass","$dbname") or die ("Virhe muodostettaessa yhteyttä tietokantaan. Ota yhteyttä asiakaspalveluun."); 
+              $myConnection= mysqli_connect("$host","$user","$pass","$dbname") or die ("Tietokantaan ei voitu luoda yhteyttä"); 
               $sqlCommand="SELECT Date,Length,Pulse FROM testi_projekti_paivakirja WHERE userID = '".$_SESSION['userID']."'";
               $query=mysqli_query($myConnection, $sqlCommand) or die(mysqli_error($myConnection));
               while($data=mysqli_fetch_array($query)){
