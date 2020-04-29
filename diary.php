@@ -18,32 +18,44 @@ include("includes/header.php");
 <span id="date"></span>
 <header>
     <h1>Päiväkirja</h1>
-    <h3>Paina "Tee merkintä" kirjataksesi päivän tiedot</h3>
+    <h3>Paina "Tee merkintä" kirjataksesi päivän tiedot<br>Paina "Täytä terveystietolomake" tallentaaksesi uudet terveystiedot</h3>
 </header>
+<div class="buttons_forms">
+    <button class="btn" id="diaryBtn">Tee merkintä</button>
+    <div class="markingPopup">
+        <div class="markingContent">
+            <?php
+            include("includes/diaryMarking.php");
+            ?>
+        </div>
+    </div>
 
-<button class="btn" id="diaryBtn">Tee merkintä</button>
-<div class="markingPopup">
-    <div class="markingContent">
-        <?php
-        include("includes/diaryMarking.php");
-        ?>
+    <button class="btn" id="healthFormBtn">Täytä terveystietolomake</button>
+    <div class="markingPopup2">
+        <div class="markingContent2">
+            <?php
+            include("includes/diaryHealthInfo.php");
+            ?>
+        </div>
     </div>
 </div>
+<<<<<<< Updated upstream
 
 <button class="btn" id="healthFormBtn">Täytä terveystietolomake</button>
 <div class="markingPopup2">
     <div class="markingContent2">
-        <?php
-        include("includes/diaryHealthInfo.php");
-        ?>
-    </div>
-</div>
+=======
 <div class="charts">
+    <div class="pulseChart_pulseInfo">
+>>>>>>> Stashed changes
+        <?php
+            include("charts/pulseChart.php");
+        ?>
+        <p class="pulseInfo">Palautumissykkeesi kertoo sinulle nimensä mukaisesti, kuinka hyvin palaudut treenistä. Palautumissyke miinustetaan maksimisykkeestä, johon sinulla on mahdollista yltää. Mitä suurempi erotus on, sitä nopeammin palautuminen alkaa. Suurempi erotus kuvastaa parempaa kuntoa ja sitä, ettei keho ole ylikuormittunut liiasta treenaamisesta. 
+        </p>
+    </div>
     <?php
         include("includes/diaryOpenHealthInfo.php");
-    ?>
-    <?php
-        include("charts/pulseChart.php");
     ?>
 </div>
 <script>
