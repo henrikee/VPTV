@@ -15,7 +15,7 @@ include("includes/header.php");
     <!-- Valmis ikoni (w3 school) -->
     <!-- Ready to use icon (w3 school) -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Document</title>
+    <title>Virtual PT - Etusivu</title>
 </head>
 <body>
     <span id="date"></span>
