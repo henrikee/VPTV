@@ -39,15 +39,8 @@ include("includes/header.php");
         </div>
     </div>
 </div>
-<<<<<<< Updated upstream
-
-<button class="btn" id="healthFormBtn">Täytä terveystietolomake</button>
-<div class="markingPopup2">
-    <div class="markingContent2">
-=======
 <div class="charts">
     <div class="pulseChart_pulseInfo">
->>>>>>> Stashed changes
         <?php
             include("charts/pulseChart.php");
         ?>
