@@ -21,7 +21,7 @@
                 $Pulse=$data['Pulse'];
                 $Length=$data['Length'];
           ?>  
-           ['<?php echo $Date;?>',<?php echo $Pulse;?>,<?php echo $Length;?>], 
+           ['<?php echo substr($Date,0,10);?>',<?php echo $Pulse;?>,<?php echo $Length;?>], 
           <?php      
               }
 
