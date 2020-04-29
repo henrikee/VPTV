@@ -8,26 +8,25 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Date', 'Pulse', 'Length'],
+          ['Päivämäärä', 'Syke'],
           
           //PHP KOODI
           <?php
-              $myConnection= mysqli_connect("$host","$user","$pass","$dbname") or die ("Tietokantaan ei voitu luoda yhteyttä"); 
-              $sqlCommand="SELECT Date,Length,Pulse FROM testi_projekti_paivakirja WHERE userID = '".$_SESSION['userID']."'";
+              $myConnection= mysqli_connect("$host","$user","$pass","$dbname") or die ("Virhe muodostettaessa yhteyttä tietokantaan. Ota yhteyttä asiakaspalveluun."); 
+              $sqlCommand="SELECT Date,Pulse FROM testi_projekti_paivakirja WHERE userID = '".$_SESSION['userID']."' ORDER BY Date DESC LIMIT 7";
               $query=mysqli_query($myConnection, $sqlCommand) or die(mysqli_error($myConnection));
               while($data=mysqli_fetch_array($query)){
                 $Date=$data['Date'];
                 $Pulse=$data['Pulse'];
-                $Length=$data['Length'];
           ?>  
-           ['<?php echo substr($Date,0,10);?>',<?php echo $Pulse;?>,<?php echo $Length;?>], 
+           ['<?php echo substr($Date,0,10);?>',<?php echo $Pulse;?>], 
           <?php      
               }
           ?> 
         ]);
 
         var options = {
-          title: 'Pulssi tiedot',
+          title: 'Palautumissykkeen vaihtelu 7:stä edellisestä treenistä.',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
@@ -40,6 +39,6 @@
     </script>
   </head>
   <body>
-    <div id="curve_chart" style="width: 900px; height: 500px"></div>
+    <div id="curve_chart" style="width: 40vw; height: 35vh"></div>
   </body>
 </html>

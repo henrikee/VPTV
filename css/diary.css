@@ -293,7 +293,19 @@ section{
     color: black;
     font-weight: lighter;
 }
-
+.charts{
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#curve_chart{
+    margin: auto;
+    width: 40vw; 
+    height: 35vh;
+    background-color:#fbfbfbd3;
+    border: 1px solid #53b1bd;
+}
 @media only screen and (max-width: 1236px){
     span{
         font-size: smaller;
