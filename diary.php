@@ -13,6 +13,7 @@ include("includes/header.php");
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Gotu&display=swap" rel="stylesheet">
     <link href="themes/light.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 </head>
 <body>
 <span id="date"></span>
@@ -30,6 +31,7 @@ include("includes/header.php");
     </div>
 </div>
 
+
 <button class="btn" id="healthFormBtn">Täytä terveystietolomake</button>
 <div class="markingPopup2">
     <div class="markingContent2">
@@ -38,27 +40,12 @@ include("includes/header.php");
         ?>
     </div>
 </div>
-
-<div class="healthdata">
-    <form method="get">
-        <button class="btn" type="submit" value="Näytä terveystiedot" name="buttonOpenHealthInfo">Näytä tiedot</button>
-        <button class="btn" type="reset" value="Piilota terveystiedot" id="buttonHideHealthInfo" name="buttonHideHealthInfo">Piilota tiedot</button>
-    </form>
-    <p class="opendata">
-    <?php
-        if(isset($_GET['buttonOpenHealthInfo'])){
-            include("includes/diaryOpenHealthInfo.php");
-        }
-    ?>
-    </p>
-</div>
-
-<div class="pulseChart">
-    <?php
-        include("charts/pulseChart.php")
-    ?>
-</div>
-
+<?php
+    include("includes/diaryOpenHealthInfo.php");
+ ?>
+<?php
+    include("charts/pulseChart.php");
+?>
 <script>
     var date = new Date();
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
