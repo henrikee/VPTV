@@ -290,7 +290,9 @@ section{
     font-weight: lighter;
 }
 .charts{
-    width: 100vw;
+    width: 96vw;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     display: flex;
     flex-direction: row;

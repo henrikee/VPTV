@@ -38,6 +38,7 @@ include("includes/header.php");
         ?>
     </div>
 </div>
+<<<<<<< Updated upstream
 
 <div class="healthdata">
     <form method="get">
@@ -54,15 +55,28 @@ include("includes/header.php");
 </div>
 
 <div class="charts">
+=======
+<div class="charts">
+    <?php
+        include("includes/diaryOpenHealthInfo.php");
+    ?>
+>>>>>>> Stashed changes
     <?php
         include("charts/pulseChart.php");
     ?>
 </div>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 <script>
     var date = new Date();
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
 </script>
 <script src="js/diary.js"></script>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 </body>
 </html>
