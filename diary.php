@@ -13,7 +13,6 @@ include("includes/header.php");
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Gotu&display=swap" rel="stylesheet">
     <link href="themes/light.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
 </head>
 <body>
 <span id="date"></span>
