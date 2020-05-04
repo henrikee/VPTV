@@ -1,26 +1,31 @@
 <?php
-include("includes/navMain.php");
 include("includes/header.php");
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
-    <title>Tietopankki</title>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Gotu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/info.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Tietopankki</title>
 </head>
 <body>
+    <nav>
+        <?php
+        include("includes/navMain.php");
+        ?>
+    </nav>
     <span id="date"></span>
     <header>
         <h1>Tietopankki</h1>
         <h3>Täältä löydät tietoa liikunnan määrästä, kuormittavuudesta ja terveyshyödyistä. <br><br>
         Klikkaa sivun vasemmalla puolella olevia linkkejä lukeaksesi vinkkejä!</h3>
     </header>
-    <section>
+    <div class="section">
         <div id="buttons">
             <button onclick="func0()">Terveysliikunnan määrä ikääntyvälle.</button>
             <button onclick="func1()">Miksi kannattaa liikkua?</button>
@@ -104,8 +109,8 @@ include("includes/header.php");
             Jos aloitat suunnitelmallisuudella, kokeile myöhemmin hellittää siitä ja luoda liikunnasta tapa, joka on osa arkielämääsi. Liikunnan säännöllisestä harrastamisesta tulee loppujen lopuksi helpompaa ja "huomaamattomampaa", mitä vähemmän liikuntatuokiosi vaatii jatkuvaa järjestelyä ja aikatauluttamista.<br><br>
             </p>
         </div>
-    </section>
+    </div>
+<script src="js/info.js"></script>
 
-<script type="text/javascript" src="js/info.js"></script>
 </body>
 </html>

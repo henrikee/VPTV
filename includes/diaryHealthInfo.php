@@ -3,14 +3,6 @@
 include("forms/formHealth.php");
 include_once("functions/healthyCalculator.php");
 ?>
-<!doctype html>
-
-<html lang="en">
-<head>
-<title>Terveystietolomake</title>
-<meta charset="UTF-8"/>
-</head>
-<body>
 <?php
     //Tallennetaanko terveystiedot
     if(isset($_POST['submitHealthydata'])){
@@ -57,6 +49,3 @@ if(isset($_POST['submitHealthydata'])){
    }
   }
 ?>
-
-</body>
-</html>

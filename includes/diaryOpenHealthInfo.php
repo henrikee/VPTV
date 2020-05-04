@@ -1,13 +1,4 @@
 
-<!doctype html>
-
-<html lang="en">
-<head>
-<title>Terveystietolomake</title>
-<meta charset="UTF-8"/>
-</head>
-<body>
-    <div></div>
     <?php
         echo $_SESSION['username'];
     ?>
@@ -19,7 +10,7 @@ $kysely=$DBH->prepare($sql);
 $kysely->execute();
 while ($row=$kysely->fetch()){   
 
-    echo("<br><table class='hdata'><tr>
+    echo("<table class='hdata'><tr>
             <th class='HDth'>Sukupuoli</th>
             <td class='HDtd'>".$row["gender"]."</td></tr>
             <tr>
@@ -60,8 +51,6 @@ while ($row=$kysely->fetch()){
             <tr>
             <th class='HDth'>Verenpaine arvio</th>
             <td class='HDtd'>".$row["bloodPressureWarning"]."</td>");
-           echo("</tr>");
+           echo("</tr>"."</table>");
         }
-    echo("</table>");
-
 ?>

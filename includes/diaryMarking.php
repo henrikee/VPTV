@@ -1,19 +1,11 @@
 <?php
 include("forms/formDiary.php");
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PÃ¤ivÃ¤kirjamerkintÃ¤</title>
-</head>
-<body>
+
 <?php
     echo $_SESSION['username'];
 ?>
-
-    
+   
 <?php
  //Tallennetaanko terveystiedot
 if(isset($_POST['submitEx'])){
@@ -35,5 +27,3 @@ if(isset($_POST['submitEx'])){
    }
   }
 ?>
-</body>
-</html>

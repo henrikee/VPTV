@@ -142,7 +142,6 @@ header{
 h1{
     color: #fbfbfb;
     text-shadow: 3px 3px 4px rgba(0,0,0,0.9);
-    font-size: 45px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -186,35 +185,30 @@ section{
     justify-content: center;
 }
 .boxPerson{
-    background-color:#fbfbfbd3;
+    background-color:#fbfbfba6;
     border: 1px solid #53b1bd;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
-    height: 230px;
-    max-height: 300px; 
-    width: 380px;
-    max-width: 400px;
+    width: 50vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1vh;
     display: block;
-    padding: 3px;
+    padding: 2%;
     border-radius: 4px;
 }
 p{
     float: left;
-    width: 215px;
+    width: 70%;
+    height: 80%;
     text-align: left;
-    margin-left: 2%;
-    margin-top: 1%;
-    margin-right: 2%;
+    margin: 2%;
     letter-spacing: 1px;
 }
 img{
     display: block;
-    margin-top: 1%;
-    margin-right: 2%;
-    height: 160px;
-    width: 130px;
+    margin: 2%;
+    height: 80%;
+    width: 20%;
     box-shadow: 2px 2px 3px rgba(3, 3, 3, 0.7);
     border-radius: 4px;
 }

@@ -1,11 +1,8 @@
 <?php
-include("includes/navLogin.php");
-include("includes/boxLogin.php");
 include("includes/header.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +13,14 @@ include("includes/header.php");
 </head>
 
 <body>
+  <nav>
+    <?php
+    include("includes/navLogin.php");
+    ?>
+  </nav>
+  <?php
+  include("includes/boxLogin.php");
+  ?>
   <!-- Lab 6 ja 3 koodit, tietenkin muokattu jotta toimii uusilla parametreilla -->
   <!-- Lab 6 and 3 codes modified in a way that it works with new parameters -->
   <?php
@@ -101,5 +106,4 @@ include("includes/header.php");
   ?>
 
 </body>
-
 </html>
