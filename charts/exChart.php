@@ -6,7 +6,7 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Päivämäärä', 'Kesto'],
+          ['Päivämäärä', 'Kesto (min)'],
 
           //PHP Code 
           <?php

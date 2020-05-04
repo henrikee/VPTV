@@ -53,7 +53,7 @@ include("includes/header.php");
         <?php
             include("charts/exChart.php");
         ?>
-        <p class="exInfo">Edelliset 7 treeniä minuutteina.</p>
+        <p class="exInfo">Muista pitää myös lepopäiviä!</p>
     </div>
     <div class="healthInfo">
         <?php

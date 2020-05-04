@@ -259,8 +259,12 @@ span{
     color:white;
 }
 .markingTxt{
+    margin-bottom: 1vh;
     width: 95%;
-    height: 6.5%;
+    height: 2rem;
+    background-color:#53b1bd86;
+    border-radius: 3px;
+    border: 1px solid #53b1bd;
 }
 .diaryMarkingLabel{
     font-size: larger;
@@ -271,7 +275,7 @@ span{
 
 /*charts and healthdata*/
 .charts_info{
-    width: 98vw;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -325,6 +329,9 @@ span{
     border-top: 1px solid #53b1bd;
     border-bottom: 1px solid #53b1bd;
 }
+rect{
+    margin:1vh;
+}
 .exInfo{
     padding: 1%;
     display: block;
@@ -370,5 +377,12 @@ footer{
     }
     .charts_info{
         flex-direction: column;
+    }
+    .pulseChart_pulseInfo,#curve_chart,.exChart,#barChart,.hdata{
+        width: 60vw;
+    }
+    .pulseChart_pulseInfo,.exChart{
+        margin-left: auto;
+        margin-right: auto;
     }
 }

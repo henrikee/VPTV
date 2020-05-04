@@ -42,11 +42,6 @@ include("includes/header.php");
             <a class="button" href="info.php">Näe lisää...</a>
         </div>
     </section>
-<footer>
-    <?php
-        include("log/footer.php");
-    ?>
-</footer>
 <script>
     var date = new Date();
     //getting and displaying current date on page

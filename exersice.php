@@ -104,6 +104,9 @@ include("includes/header.php");
             </p>
         </div>
     </section>
-
+<script>
+    var date = new Date();
+    document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
+</script>
 </body>
 </html>
