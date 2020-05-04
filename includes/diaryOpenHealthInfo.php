@@ -37,7 +37,7 @@ while ($row=$kysely->fetch()){
             <td class='HDtd'>".$row["waistCircuit"]."</td>
             </tr>
             <tr>
-            <th class='HDth'>Vyötärönympärys arvio</th>
+            <th class='HDth'>Vyötärönympärysarvio</th>
             <td class='HDtd'>".$row["waistCircuitWarning"]."</td>
             </tr>
             <tr>
@@ -45,11 +45,11 @@ while ($row=$kysely->fetch()){
             <td class='HDtd'>".$row["systolic"]."</td>
             </tr>
             <tr>
-            <th class='HDth'>Verenpaine alapaine</th>
+            <th class='HDth'>Verenpaineen alapaine</th>
             <td class='HDtd'>".$row["diastolic"]."</td>
             </tr>
             <tr>
-            <th class='HDth'>Verenpaine arvio</th>
+            <th class='HDth'>Verenpainearvio</th>
             <td class='HDtd'>".$row["bloodPressureWarning"]."</td>");
            echo("</tr>"."</table>");
         }
