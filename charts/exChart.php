@@ -13,7 +13,7 @@
           //PHP Code 
           <?php
               $myConnection= mysqli_connect("$host","$user","$pass","$dbname") or die ("Virhe muodostettaessa yhteyttä tietokantaan. Ota yhteyttä asiakaspalveluun."); 
-              $sqlCommand="SELECT Date,Length FROM testi_projekti_paivakirja ORDER BY date DESC LIMIT 7";
+              $sqlCommand="SELECT Date,Length FROM testi_projekti_paivakirja WHERE userID = '".$_SESSION['userID']."' ORDER BY Date DESC LIMIT 7";
               $query=mysqli_query($myConnection, $sqlCommand) or die(mysqli_error($myConnection));
               while($data=mysqli_fetch_array($query)){
                 $Date=$data['Date'];
