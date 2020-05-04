@@ -22,9 +22,7 @@
            ['<?php echo substr($Date,0,10);?>',<?php echo $Length;?>], 
           <?php
               }
-
           ?> 
- 
         ]);
 
         var options = {
