@@ -28,7 +28,7 @@
         ]);
 
         var options = {
-          title: 'Liikunnan kesto',
+          title: 'Liikunnan kesto 7:stä edellisestä treenistä.',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
