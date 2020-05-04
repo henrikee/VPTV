@@ -45,12 +45,10 @@ include("includes/header.php");
                 <div class="boxPerson">
                     <h3>Fysioterapeutti</h3>
                     <p>Onko sinulla liikkumista rajoittavia vammoja/tiloja tai oletko toipumassa leikkauksesta?<br>Varaa aika fysioterapeutin konsultaatioon sekä 4 viikon henkilökohtaisen liikuntasuunnitelman tekoon!<br>Soita fysioterapeutin numeroon arkisin klo 8-18 tai lähetä sähköpostia ja fysioterpauttimme vastaa sinulle pikimmiten.<br>Puh. +358 12 345 6789<br>E-mail: fysioterapia@virtualpt.fi</p>
-                    <img>
                 </div>
                 <div class="boxPerson">
                     <h3>Liikunnanohjaaja</h3>
                     <p>Haluatko yksilöllistä ohjausta liikuntaan ja kehityksen seurantaan?<br>Varaa aika liikunnanohjaajan konsultaatioon sekä 4 viikon henkilökohtaisen treeniohjelman tekoon!<br>Soita liikunnanohjaajan numeroon arkisin klo 8-18 tai lähetä sähköpostia ja liikunnanohjaajamme vastaa sinulle pikimmiten.<br>Puh. +358 98 765 4321<br>E-mail: liikunta@virtualpt.fi</p>
-                    <img>
                 </div>
                 <div class="boxPerson">
                     <h3>Ravitsemusterapeutti</h3>
@@ -65,7 +63,6 @@ include("includes/header.php");
                 <div class="boxPerson">
                     <h3>Asiakaspalvelu</h3>
                     <p>Onko sinulla kysyttävää? Lähetä meille sähköpostia! Asiakaspalvelumme vastaa mielellään sinua askarruttaviin kysymyksiin.<br>asiakaspalvelu@virtualpt.fi</p>
-                    <img>
                 </div>
             </div>
         </section>
