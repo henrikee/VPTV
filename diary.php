@@ -41,7 +41,7 @@ include("includes/header.php");
         </div>
     </div>
 </div>
-<div class="charts">
+<div class="charts_info">
     <div class="pulseChart_pulseInfo">
         <?php
             include("charts/pulseChart.php");
@@ -55,9 +55,11 @@ include("includes/header.php");
         ?>
         <p class="exInfo">Edelliset 7 treeniä minuutteina.</p>
     </div>
-    <?php
-        include("includes/diaryOpenHealthInfo.php");
-    ?>
+    <div class="healthInfo">
+        <?php
+            include("includes/diaryOpenHealthInfo.php");
+        ?>
+    </div>
 </div>
 
 <script>

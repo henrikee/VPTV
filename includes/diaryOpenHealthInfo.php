@@ -10,7 +10,7 @@ $kysely=$DBH->prepare($sql);
 $kysely->execute();
 while ($row=$kysely->fetch()){   
 
-    echo("<br><table class='hdata'><tr>
+    echo("<table class='hdata'><tr>
             <th class='HDth'>Sukupuoli</th>
             <td class='HDtd'>".$row["gender"]."</td></tr>
             <tr>
