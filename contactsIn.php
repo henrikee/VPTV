@@ -1,10 +1,9 @@
 <?php
-include("includes/navMain.php");
 include("includes/header.php");
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +13,11 @@ include("includes/header.php");
     <title>Virtual PT - Yhteystiedot</title>
 </head>
 <body>
+    <nav>
+        <?php
+        include("includes/navMain.php");
+        ?>
+    </nav>
     <span id="date"></span>
     <header>
         <h1>Yhteystiedot</h1>
@@ -37,7 +41,7 @@ include("includes/header.php");
                     <p>Code Master<br>Henkka, virallisesti Henrik, omistaa tiimin rautaisimmat hermot sekä vankan työotteen, työn tauottaminen tuottaa parhaita tuloksia. Henkka on sovelluksen tietokantojen isä ja vastaa niiden toimivuudesta. Vapaa-ajalla Henkan löytää yleensä treenaamasta painisalilta, ruokalevolta tai dominoimasta Owerwatchissa.<br><br>Puh. +358 40 557 1241<br>E-mail: henrikee@metropolia.fi</p>
                     <img src="img/henkka.jpeg" alt="henkkaa">
                 </div>
-            <div>
+</div>
         </section>
         <h2>Valmentajat</h2>
         <section>
@@ -45,12 +49,10 @@ include("includes/header.php");
                 <div class="boxPerson">
                     <h3>Fysioterapeutti</h3>
                     <p>Onko sinulla liikkumista rajoittavia vammoja/tiloja tai oletko toipumassa leikkauksesta?<br>Varaa aika fysioterapeutin konsultaatioon sekä 4 viikon henkilökohtaisen liikuntasuunnitelman tekoon!<br>Soita fysioterapeutin numeroon arkisin klo 8-18 tai lähetä sähköpostia ja fysioterpauttimme vastaa sinulle pikimmiten.<br>Puh. +358 12 345 6789<br>E-mail: fysioterapia@virtualpt.fi</p>
-                    <img>
                 </div>
                 <div class="boxPerson">
                     <h3>Liikunnanohjaaja</h3>
                     <p>Haluatko yksilöllistä ohjausta liikuntaan ja kehityksen seurantaan?<br>Varaa aika liikunnanohjaajan konsultaatioon sekä 4 viikon henkilökohtaisen treeniohjelman tekoon!<br>Soita liikunnanohjaajan numeroon arkisin klo 8-18 tai lähetä sähköpostia ja liikunnanohjaajamme vastaa sinulle pikimmiten.<br>Puh. +358 98 765 4321<br>E-mail: liikunta@virtualpt.fi</p>
-                    <img>
                 </div>
                 <div class="boxPerson">
                     <h3>Ravitsemusterapeutti</h3>
@@ -65,7 +67,6 @@ include("includes/header.php");
                 <div class="boxPerson">
                     <h3>Asiakaspalvelu</h3>
                     <p>Onko sinulla kysyttävää? Lähetä meille sähköpostia! Asiakaspalvelumme vastaa mielellään sinua askarruttaviin kysymyksiin.<br>asiakaspalvelu@virtualpt.fi</p>
-                    <img>
                 </div>
             </div>
         </section>
@@ -75,10 +76,6 @@ include("includes/header.php");
     //getting and displaying current date on page
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
 </script>
-<footer>
-    <?php
-        include("log/footer.php");
-    ?>
-</footer>
+
 </body>
 </html>

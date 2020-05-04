@@ -104,10 +104,6 @@ include("includes/header.php");
     }
   
   ?>
-<footer>
-    <?php
-        include("log/footer.php");
-    ?>
-</footer>
+
 </body>
 </html>

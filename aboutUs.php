@@ -1,10 +1,9 @@
 <?php
-include("includes/navSignup.php");
 include("includes/header.php");
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi-fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +13,11 @@ include("includes/header.php");
     <title>Virtual PT - Yrityksestä</title>
 </head>
 <body>
+    <nav>
+        <?php
+        include("includes/navSignup.php");
+        ?>
+    </nav>
     <header>
         <h1>Tietoa yrityksestä</h1>
     </header>
@@ -60,10 +64,5 @@ include("includes/header.php");
             </div>    
         </div>
     </div>
-    <footer>
-    <?php
-        include("log/footer.php");
-    ?>
-</footer>
 </body>
 </html>

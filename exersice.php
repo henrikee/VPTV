@@ -1,10 +1,8 @@
 <?php
-include("includes/navMain.php");
 include("includes/header.php");
 ?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +12,15 @@ include("includes/header.php");
     <title>Virtual PT - Liikunta</title>
 </head>
 <body>
+    <nav>
+        <?php
+        include("includes/navMain.php");
+        ?>
+    </nav>
     <span id="date"></span>
    <header>
        <h1>Liikunta ja harjoittelu</h1>
-       <h2>Täältä löydät esimerkkiohjelmia ja vinkkejä, joita voit soveltaa omaan arkeesi!</h3>
+       <h2>Täältä löydät esimerkkiohjelmia ja vinkkejä, joita voit soveltaa omaan arkeesi!</h2>
    </header>
    <section>
    <div class="card">
@@ -101,10 +104,6 @@ include("includes/header.php");
             </p>
         </div>
     </section>
-    <footer>
-    <?php
-        include("log/footer.php");
-    ?>
-</footer>
+
 </body>
 </html>

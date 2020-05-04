@@ -1,10 +1,9 @@
 <?php
-include("includes/navSignup.php");
 include("includes/header.php");
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +13,11 @@ include("includes/header.php");
     <title>Virtual PT - Yhteystiedot</title>
 </head>
 <body>
+    <nav>
+        <?php
+        include("includes/navSignup.php");
+        ?>
+    </nav>
     <header>
         <h1>Yhteystiedot</h1>
     </header>
@@ -25,6 +29,7 @@ include("includes/header.php");
                 <p>Product Owner<br>Tuomas, tai tuttavallisemmin Tumppi, on tiimimme idearikas koodivelho. Hän vastasi sovelluksen luonnissa pääasiassa sivuston ominaisuuksien toimivuudesta. Vapaa-ajalla Tumpin voi löytää keittiöstä culinarisoimasta, uima-altaasta polskuttelemasta tai kantamassa tiimiään League of Legends -pelissä.<br><br>Puh. +358 44 528 8389<br>E-mail: tuomatur@metropolia.fi</p>
                 <img src="img/tumppi.jpg" alt="tumppii">
             </div>
+
             <div class="boxPerson">
                 <h3>Heini Näppä</h3>
                 <p>Scrum Master<br>Heini, toisinaan Hese, on tiimin ilopilleri sekä naisvahvistus. Heinin kädenjälki näkyy pääasiassa sovelluksen fronttipuolella eikä työskennellessä ideoille näy loppua. Vapaa-ajalla Hesen löytää tavallisimmin lenkkipolulta, mummolasta tai pleikkarin äärestä.<br><br>Puh. +358 50 911 1593<br>E-mail: heinina@metropolia.fi</p>
@@ -43,12 +48,8 @@ include("includes/header.php");
                     <p>Onko sinulla kysyttävää? Lähetä meille sähköpostia! Asiakaspalvelumme vastaa mielellään sinua askarruttaviin kysymyksiin.<br>E-mail: asiakaspalvelu@virtualpt.fi
                     </p>
                 </div>
-            </div>
+</div>
     </section>
-    <footer>
-    <?php
-        include("log/footer.php");
-    ?>
-</footer>
+
 </body>
 </html>

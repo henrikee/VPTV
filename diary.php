@@ -1,19 +1,22 @@
 <?php
-include("includes/navMain.php");
 include("includes/header.php");
 ?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Virtual PT - Päiväkirja</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/diary.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Gotu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Virtual PT - Päiväkirja</title>
 </head>
 <body>
+    <nav>
+        <?php
+        include("includes/navMain.php");
+        ?>
+    </nav>
 <span id="date"></span>
 <header>
     <h1>Päiväkirja</h1>
@@ -28,7 +31,7 @@ include("includes/header.php");
             ?>
         </div>
     </div>
-
+    
     <button class="btn" id="healthFormBtn">Täytä terveystietolomake</button>
     <div class="markingPopup2">
         <div class="markingContent2">

@@ -1,8 +1,6 @@
 
-<html>
-  <head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js%22%3E"></script>
-    <script type="text/javascript">
+    <script src="https://www.gstatic.com/charts/loader.js%22%3E"></script>
+    <script>
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
 
@@ -37,8 +35,5 @@
         chart.draw(data, options);
       }
     </script>
-  </head>
-  <body>
     <div id="bar_chart"></div>
-  </body>
-</html>
+ 
