@@ -60,5 +60,10 @@ include("includes/header.php");
             </div>    
         </div>
     </div>
+    <footer>
+    <?php
+        include("log/footer.php");
+    ?>
+</footer>
 </body>
 </html>

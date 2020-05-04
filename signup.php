@@ -1,5 +1,4 @@
 <?php
-include("includes/navSignup.php");
 include("includes/header.php");
 ?>
 <!DOCTYPE html>
@@ -15,6 +14,11 @@ include("includes/header.php");
 </head>
 
 <body>
+  <nav>
+    <?php
+    include("includes/navSignup.php");
+    ?>2
+  </nav>
   <header>
   <h1>Luo käyttäjätunnus</h1>
   </header>
@@ -90,5 +94,10 @@ include("includes/header.php");
     }
   }
   ?>
+  <footer>
+    <?php
+        include("log/footer.php");
+    ?>
+</footer>v
 </body>
 </html>

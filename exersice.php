@@ -101,5 +101,10 @@ include("includes/header.php");
             </p>
         </div>
     </section>
+    <footer>
+    <?php
+        include("log/footer.php");
+    ?>
+</footer>
 </body>
 </html>

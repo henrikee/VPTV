@@ -75,5 +75,10 @@ include("includes/header.php");
     //getting and displaying current date on page
     document.getElementById("date").innerHTML = "Tänään on "+date.getDate()+'.'+(date.getMonth()+1)+'.'+date.getFullYear();
 </script>
+<footer>
+    <?php
+        include("log/footer.php");
+    ?>
+</footer>
 </body>
 </html>
