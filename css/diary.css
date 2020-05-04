@@ -304,6 +304,27 @@ span{
     display: block;
     width: 100%;
 }
+.exChart{
+    border-radius: 5px;
+    margin: 1vh;
+    background-color:#fbfbfbd3;
+    border: 1px solid #53b1bd;
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#barChart{
+    margin: auto;
+    display: block;
+    padding: 1%;
+    width: 39vw; 
+    height: 35vh;
+    background-color:#fbfbfbd3;
+    border-top: 1px solid #53b1bd;
+    border-bottom: 1px solid #53b1bd;
+}
 .hdata{
     overflow-x: hidden;
     overflow-y: auto;

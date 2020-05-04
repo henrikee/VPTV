@@ -46,6 +46,12 @@ include("includes/header.php");
         <p class="pulseInfo">Palautumissykkeesi kertoo sinulle nimensä mukaisesti, kuinka hyvin palaudut treenistä. Palautumissyke miinustetaan maksimisykkeestä, johon sinulla on mahdollisuus yltää. Mitä suurempi erotus on, sitä nopeammin palautuminen alkaa. Suurempi erotus kuvastaa parempaa kuntoa ja sitä, ettei keho ole ylikuormittunut liiasta treenaamisesta tai muista elämän vilskeistä. Keskimääräinen laskukaava maksimisykkeelle on 220 - ikä.
         </p>
     </div>
+    <div class="exChart">
+        <?php
+            include("charts/exChart.php");
+        ?>
+        <p class="exInfo">Edelliset 7 treeniä minuutteina.</p>
+    </div>
     <?php
         include("includes/diaryOpenHealthInfo.php");
     ?>
