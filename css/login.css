@@ -213,7 +213,6 @@ button:active {
     justify-content: space-evenly;
 }
 input{
-    font-weight: bolder;
     width: 20vh;
     height: 4vh;
     margin-left: auto;
