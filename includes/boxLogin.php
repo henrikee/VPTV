@@ -16,7 +16,6 @@
   <div class="btns">
     <button type="submit" name="submitUser" value="Kirjaudu">Kirjaudu</button>
     <button type="reset"  value="Resetoi">Tyhjennä</button>
-    <button type="submit" name="submitBack" value="Luovuta">Peruuta</button>
   </div>
   <br>
   <p>Etkö ole vielä rekisteröitynyt?</p>
