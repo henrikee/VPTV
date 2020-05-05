@@ -4,11 +4,12 @@
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
 
+      //luodaan taulukko jossa näkyy merkinnän päivämäärä ja liikunnan kesto
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Päivämäärä', 'Kesto (min)'],
 
-          //PHP Code 
+          //Haetaan tiedot tietokannasta
           <?php
               $myConnection= mysqli_connect("$host","$user","$pass","$dbname") or die ("Virhe muodostettaessa yhteyttä tietokantaan. Ota yhteyttä asiakaspalveluun."); 
               $sqlCommand="SELECT Date,Length FROM testi_projekti_paivakirja WHERE userID = '".$_SESSION['userID']."' ORDER BY Date DESC LIMIT 7";
@@ -29,6 +30,7 @@
           legend: { position: 'bottom' }
         };
 
+        //asetetaan tiedot taulukkoon, päivitetään taulukko
         var chart = new google.visualization.ColumnChart 
 (document.getElementById('bar_chart'));
 

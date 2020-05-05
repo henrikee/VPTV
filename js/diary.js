@@ -1,3 +1,4 @@
+//nappien funktiot, valitaan elementti id:llä ja muokataan halutun elementin näkyvyyttä
 document.getElementById("diaryBtn").addEventListener('click',function() {
     document.querySelector('.markingPopup').style.display ='flex';  
 });

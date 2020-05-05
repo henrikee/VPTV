@@ -26,6 +26,7 @@ include_once("functions/healthyCalculator.php");
      ?>
 <?php
 
+//tallennetaan istunnon tiedot tietokantaan
 if(isset($_POST['submitHealthydata'])){
    try {
         $data2['userID']=$_SESSION['userID'];
