@@ -31,7 +31,7 @@ include("includes/header.php");
     //***Checking if email adress is in the server
     
     if (!filter_var($_POST['givenEmail'], FILTER_VALIDATE_EMAIL)) {
-      $_SESSION['swarningInput'] = "Illegal email";
+      $_SESSION['swarningInput'] = "Sähköpostiosoite on väärin.";
     } else {
       unset($_SESSION['swarningInput']);
       try {
